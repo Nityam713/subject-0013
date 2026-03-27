@@ -1,0 +1,16 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+}
+
+.hero-title,
+.card-title,
+.simulator h3,
+.obs-section h2,
+.bio-title,
+.risk-panel p,
+.void-line {
+  font-family: "Playfair Display", Georgia, serif;
+}

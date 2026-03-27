@@ -1,0 +1,101 @@
+.bio-bar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 210px;
+  border-left: 1px solid rgba(8, 8, 8, 0.22);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.94), rgba(242, 242, 242, 0.94));
+  padding: 1rem 0.8rem;
+  z-index: 90;
+  overflow: hidden;
+}
+
+.bio-title {
+  margin: 0 0 1.2rem;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+
+.bio-block {
+  margin-bottom: 1.1rem;
+  border-top: 1px solid rgba(8, 8, 8, 0.12);
+  padding-top: 0.6rem;
+}
+
+.bio-label {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.bio-value {
+  margin: 0.3rem 0 0;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  color: var(--surgical);
+}
+
+.stress-svg {
+  width: 100%;
+  height: 56px;
+  margin-top: 0.35rem;
+}
+
+.stress-svg path {
+  fill: none;
+  stroke: var(--surgical);
+  stroke-width: 1.4;
+}
+
+.bio-ticker {
+  display: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 10px;
+  opacity: 0.85;
+  letter-spacing: 0.08em;
+}
+
+.bio-ticker::after {
+  content: attr(data-ticker) "   " attr(data-ticker);
+  display: inline-block;
+  padding-left: 100%;
+  animation: tickerMove 13s linear infinite;
+}
+
+@keyframes tickerMove {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@media (max-width: 930px) {
+  .bio-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    width: 100%;
+    height: auto;
+    border-left: 0;
+    border-top: 1px solid rgba(8, 8, 8, 0.22);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(2px);
+    padding: 0.45rem 0.75rem;
+    z-index: 120;
+  }
+
+  .bio-title,
+  .bio-block {
+    display: none;
+  }
+
+  .bio-ticker {
+    display: block;
+    line-height: 1.2;
+  }
+}

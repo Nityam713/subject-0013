@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whynot?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <div class="boot-screen" id="bootScreen" aria-live="polite">
+    <p class="boot-line" id="bootLineA">INITIALIZING_AUDIT...</p>
+    <p class="boot-line boot-line-muted" id="bootLineB">SUBJECT_DETECTED.</p>
+  </div>
+
+  <aside class="bio-bar" aria-label="Biometric sidebar">
+    <h2 class="bio-title">Patient Monitor</h2>
+    <div class="bio-block">
+      <p class="bio-label">Depth of Intrusion</p>
+      <p class="bio-value"><span id="depthValue">0</span>%</p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Exposure Duration</p>
+      <p class="bio-value"><span id="timeValue">00:00</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Stress Signature</p>
+      <svg class="stress-svg" viewBox="0 0 180 50" preserveAspectRatio="none" aria-hidden="true">
+        <path id="stressPath" d="M0 25 L20 25 L28 8 L36 43 L44 10 L52 37 L60 25 L180 25"></path>
+      </svg>
+    </div>
+    <div class="bio-ticker" id="bioTicker" data-ticker="Status: Subject Analyzing... Stress Level: Nominal... Depth Reading: Active..." aria-label="Live monitoring ticker"></div>
+  </aside>
+
+  <div class="wrap">
+    <header class="hero" id="origin">
+      <button type="button" class="terminal-dot-btn" id="terminalDotBtn" aria-expanded="false" aria-controls="terminalMenu">
+        <span class="terminal-dot" aria-hidden="true"></span>
+      </button>
+      <nav class="clinical-nav" id="terminalMenu">
+        <a href="#origin" class="clinical-link">[Origin]</a>
+        <a href="#subject-profile" class="clinical-link">[Subject_Profile]</a>
+        <a href="#signal-intercept" class="clinical-link">[Signal_Intercept]</a>
+      </nav>
+      <h1 class="hero-title">whynot?</h1>
+      <div class="eye-wrap" id="eyeContainer">
+        <svg class="eye-svg" viewBox="0 0 200 120" aria-hidden="true">
+          <ellipse class="eye-rim" cx="100" cy="60" rx="88" ry="48" />
+          <ellipse class="eye-sclera" cx="100" cy="60" rx="76" ry="40" />
+          <g class="pupil" id="pupilGroup" transform="translate(100, 60)">
+            <circle class="pupil-ring" r="14" cx="0" cy="0" />
+            <circle class="pupil-dot" r="7" cx="0" cy="0" />
+          </g>
+        </svg>
+      </div>
+      <p class="eye-label">Curiosity tracked</p>
+    </header>
+
+    <main class="main">
+      <p class="section-label">Decision Matrix</p>
+      <div class="cards">
+        <article class="card">
+          <div class="evidence">
+            <div class="crop-mark tl"></div>
+            <div class="crop-mark tr"></div>
+            <div class="crop-mark bl"></div>
+            <div class="crop-mark br"></div>
+            <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80" alt="Observation frame one" class="card-image" />
+            <div class="grid-overlay"></div>
+            <div class="live-num success-num">ROI <span class="live-value" data-base="67">67</span>%</div>
+            <div class="live-num empathy-num">EC <span class="live-value" data-base="31">31</span>%</div>
+          </div>
+          <h2 class="card-title">Leaving the stable role for contract work</h2>
+          <div class="card-meta">
+            <span>Rationality <span class="value">67%</span></span>
+            <span>Risk <span class="value">High</span></span>
+          </div>
+          <p class="card-excerpt scan-text">Cash flow variance modeled against sleep debt.<br>Preliminary finding: acceptable under constrained runway.</p>
+          <button type="button" class="risk-btn">Risk Assessment</button>
+        </article>
+
+        <article class="card">
+          <div class="evidence">
+            <div class="crop-mark tl"></div>
+            <div class="crop-mark tr"></div>
+            <div class="crop-mark bl"></div>
+            <div class="crop-mark br"></div>
+            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80" alt="Observation frame two" class="card-image" />
+            <div class="grid-overlay"></div>
+            <div class="live-num success-num">ROI <span class="live-value" data-base="41">41</span>%</div>
+            <div class="live-num empathy-num">EC <span class="live-value" data-base="46">46</span>%</div>
+          </div>
+          <h2 class="card-title">Replying to the message at 02:14</h2>
+          <div class="card-meta">
+            <span>Rationality <span class="value">41%</span></span>
+            <span>Risk <span class="value">Low</span></span>
+          </div>
+          <p class="card-excerpt scan-text">Latency suggests impulse dominance.<br>Downstream cost to morning cognition: elevated.</p>
+          <button type="button" class="risk-btn">Risk Assessment</button>
+        </article>
+
+        <article class="card">
+          <div class="evidence">
+            <div class="crop-mark tl"></div>
+            <div class="crop-mark tr"></div>
+            <div class="crop-mark bl"></div>
+            <div class="crop-mark br"></div>
+            <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=80" alt="Observation frame three" class="card-image" />
+            <div class="grid-overlay"></div>
+            <div class="live-num success-num">ROI <span class="live-value" data-base="88">88</span>%</div>
+            <div class="live-num empathy-num">EC <span class="live-value" data-base="79">79</span>%</div>
+          </div>
+          <h2 class="card-title">Silence when disclosure was expected</h2>
+          <div class="card-meta">
+            <span>Rationality <span class="value">88%</span></span>
+            <span>Risk <span class="value">Fatal</span></span>
+          </div>
+          <p class="card-excerpt scan-text">Information asymmetry preserved.<br>Relational fracture probability: non-linear above threshold.</p>
+          <button type="button" class="risk-btn">Risk Assessment</button>
+        </article>
+
+        <article class="card">
+          <div class="evidence">
+            <div class="crop-mark tl"></div>
+            <div class="crop-mark tr"></div>
+            <div class="crop-mark bl"></div>
+            <div class="crop-mark br"></div>
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80" alt="Observation frame four" class="card-image" />
+            <div class="grid-overlay"></div>
+            <div class="live-num success-num">ROI <span class="live-value" data-base="22">22</span>%</div>
+            <div class="live-num empathy-num">EC <span class="live-value" data-base="14">14</span>%</div>
+          </div>
+          <h2 class="card-title">Buying the warranty</h2>
+          <div class="card-meta">
+            <span>Rationality <span class="value">22%</span></span>
+            <span>Risk <span class="value">Low</span></span>
+          </div>
+          <p class="card-excerpt scan-text">Expected value negative.<br>Emotional premium for certainty: logged, not judged.</p>
+          <button type="button" class="risk-btn">Risk Assessment</button>
+        </article>
+      </div>
+
+      <section class="simulator" aria-labelledby="sim-heading" id="subject-profile">
+        <h3 id="sim-heading">Decision simulator</h3>
+        <div class="sim-toggle" role="group" aria-label="Choice">
+          <button type="button" id="btnNo" aria-pressed="false">No</button>
+          <button type="button" id="btnYes" aria-pressed="false">Yes</button>
+        </div>
+        <div class="sim-result empty scan-text" id="simResult" aria-live="polite">Select a position to compute outcome.</div>
+      </section>
+
+      <section class="obs-section" id="signal-intercept">
+        <h2>Recent observations</h2>
+        <ul class="obs-list">
+          <li><span class="obs-date">Mar 12</span>Subject reduced narrative coherence under time pressure.</li>
+          <li><span class="obs-date">Mar 08</span>Optimism bias detected in portfolio of unfinished tasks.</li>
+          <li><span class="obs-date">Mar 02</span>Social cost of honesty: asymmetrically distributed.</li>
+          <li><span class="obs-date">Feb 26</span>Hedonic adaptation rate within predicted interval.</li>
+        </ul>
+      </section>
+
+      <div class="void-row" id="contaminate">
+        <button type="button" class="btn-void" id="submitThought">Submit a thought</button>
+      </div>
+    </main>
+  </div>
+
+  <div class="void-overlay" id="voidOverlay" role="dialog" aria-modal="true" aria-labelledby="voidQuestion" hidden>
+    <div>
+      <p class="void-line" id="voidQuestion">Are you sure you want to know?</p>
+      <div class="void-actions" id="voidActions">
+        <button type="button" class="primary" id="voidYes">Yes</button>
+        <button type="button" id="voidNo">No</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="risk-modal" id="riskModal" role="dialog" aria-modal="true" aria-labelledby="riskQuestion" hidden>
+    <div class="risk-panel">
+      <p id="riskQuestion">Is the outcome worth the damage?</p>
+      <div class="risk-actions">
+        <button type="button" id="riskAccept">[Accept]</button>
+        <button type="button" id="riskRecalculate">[Recalculate]</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="static-overlay" id="staticOverlay" aria-hidden="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

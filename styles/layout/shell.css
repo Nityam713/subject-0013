@@ -1,0 +1,165 @@
+.wrap {
+  width: min(1120px, calc(100vw - 250px));
+  margin: 0 auto;
+  padding: 2.2rem 2rem 5rem;
+}
+
+.main {
+  width: 100%;
+}
+
+.hero {
+  text-align: center;
+  padding: 1.2rem 0 2.8rem;
+}
+
+.hero-title {
+  font-weight: 300;
+  font-size: clamp(3rem, 9vw, 7.5rem);
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  margin: 0 0 1.5rem;
+}
+
+.eye-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye-svg {
+  width: min(120px, 28vw);
+  height: auto;
+  display: block;
+}
+
+.eye-rim {
+  fill: none;
+  stroke: var(--obsidian);
+  stroke-width: 1.25;
+}
+
+.eye-sclera {
+  fill: var(--stark);
+  stroke: var(--obsidian);
+  stroke-width: 0.75;
+}
+
+.pupil {
+  transition: transform 0.12s ease-out;
+}
+
+.pupil-dot {
+  fill: var(--obsidian);
+}
+
+.pupil-ring {
+  fill: none;
+  stroke: var(--surgical);
+  stroke-width: 0.9;
+  opacity: 0.85;
+}
+
+.eye-label,
+.section-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  opacity: 0.55;
+}
+
+.section-label {
+  margin-bottom: 1rem;
+}
+
+.obs-section {
+  margin-top: 2.5rem;
+}
+
+.obs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.obs-list li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid rgba(10, 10, 10, 0.12);
+  font-size: 11px;
+}
+
+.obs-date {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.45;
+}
+
+.void-row {
+  margin-top: 2.3rem;
+  text-align: center;
+}
+
+.boot-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: #000000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: 0.13em;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.boot-screen.done {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.boot-line {
+  margin: 0.25rem 0;
+  font-size: clamp(0.86rem, 2vw, 1.05rem);
+}
+
+.boot-line-muted {
+  opacity: 0.3;
+}
+
+.boot-line-visible {
+  opacity: 1;
+}
+
+body.glitch-active {
+  animation: glitchFilter 1.2s ease forwards;
+}
+
+@keyframes glitchFilter {
+  0% { filter: none; }
+  8% { filter: grayscale(1) invert(1); }
+  16% { filter: invert(0.3) grayscale(0.5); }
+  24% { filter: grayscale(1) invert(1); }
+  32% { filter: none; }
+  40% { filter: invert(1) grayscale(0.8); }
+  48% { filter: grayscale(1); }
+  56% { filter: invert(0.6); }
+  64% { filter: grayscale(1) invert(1); }
+  72% { filter: none; }
+  100% { filter: grayscale(0.15) contrast(1.05); }
+}
+
+@media (max-width: 930px) {
+  .wrap {
+    width: 100%;
+    padding-right: 1rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .hero-title {
+    font-size: clamp(3rem, 14vw, 4.4rem);
+  }
+}
