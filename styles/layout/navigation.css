@@ -25,32 +25,6 @@
   animation: navJitter 75ms steps(2) 3;
 }
 
-.terminal-dot-btn {
-  display: none;
-  margin: 0 auto 0.7rem;
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgba(8, 8, 8, 0.18);
-  border-radius: 50%;
-  background: transparent;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-}
-
-.terminal-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--surgical);
-  animation: pulseDot 1.25s ease-in-out infinite;
-}
-
-@keyframes pulseDot {
-  0%, 100% { transform: scale(1); opacity: 0.7; }
-  50% { transform: scale(1.35); opacity: 1; }
-}
-
 @keyframes navJitter {
   0% { transform: translateX(0); }
   25% { transform: translateX(1px); }
@@ -60,40 +34,29 @@
 }
 
 @media (max-width: 760px) {
-  .terminal-dot-btn {
-    display: inline-flex;
-  }
-
   .clinical-nav {
-    width: min(88vw, 460px);
+    width: 100%;
+    max-width: 520px;
     margin: 0 auto 1.1rem;
-    display: block;
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    border: 1px solid rgba(8, 8, 8, 0.12);
-    background: rgba(255, 255, 255, 0.95);
-  }
-
-  .clinical-nav.menu-open {
-    max-height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.55rem;
+    max-height: none;
+    overflow: visible;
     opacity: 1;
-    animation: digitalScan 0.35s linear;
+    border: 0;
+    background: transparent;
   }
 
   .clinical-link {
-    display: block;
-    border: 0;
-    border-bottom: 1px solid rgba(8, 8, 8, 0.1);
-    padding: 0.7rem 0.8rem;
-  }
-
-  .clinical-link:last-child {
-    border-bottom: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 0.5rem 0.65rem;
+    border: 1px solid rgba(8, 8, 8, 0.16);
+    background: rgba(255, 255, 255, 0.9);
   }
 }
 
-@keyframes digitalScan {
-  0% { clip-path: inset(0 0 100% 0); }
-  100% { clip-path: inset(0 0 0 0); }
-}

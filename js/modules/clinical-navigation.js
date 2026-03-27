@@ -1,6 +1,4 @@
 export function initClinicalNavigation() {
-  var menu = document.getElementById("terminalMenu");
-  var dotBtn = document.getElementById("terminalDotBtn");
   var audioContext = null;
 
   function playClickSound() {
@@ -29,19 +27,5 @@ export function initClinicalNavigation() {
       link.classList.add("glitch-hover");
       playClickSound();
     });
-    link.addEventListener("click", function () {
-      if (menu && dotBtn && window.matchMedia("(max-width: 760px)").matches) {
-        menu.classList.remove("menu-open");
-        dotBtn.setAttribute("aria-expanded", "false");
-      }
-    });
   });
-
-  if (dotBtn && menu) {
-    dotBtn.addEventListener("click", function () {
-      var isOpen = menu.classList.toggle("menu-open");
-      dotBtn.setAttribute("aria-expanded", String(isOpen));
-      playClickSound();
-    });
-  }
 }
