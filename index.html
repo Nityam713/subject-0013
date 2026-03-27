@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Whynot?</title>
+  <title>「subject 0013」</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles/main.css" />
 </head>
-<body>
+<body data-page="home">
   <div class="boot-screen" id="bootScreen" aria-live="polite">
     <p class="boot-line" id="bootLineA">INITIALIZING_AUDIT...</p>
     <p class="boot-line boot-line-muted" id="bootLineB">SUBJECT_DETECTED.</p>
@@ -26,6 +26,18 @@
       <p class="bio-value"><span id="timeValue">00:00</span></p>
     </div>
     <div class="bio-block">
+      <p class="bio-label">Load Index</p>
+      <p class="bio-value"><span id="loadValue">0</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Session State</p>
+      <p class="bio-value"><span id="stateValue">Stable</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Action Count</p>
+      <p class="bio-value"><span id="actionValue">0</span></p>
+    </div>
+    <div class="bio-block">
       <p class="bio-label">Stress Signature</p>
       <svg class="stress-svg" viewBox="0 0 180 50" preserveAspectRatio="none" aria-hidden="true">
         <path id="stressPath" d="M0 25 L20 25 L28 8 L36 43 L44 10 L52 37 L60 25 L180 25"></path>
@@ -40,125 +52,69 @@
         <span class="terminal-dot" aria-hidden="true"></span>
       </button>
       <nav class="clinical-nav" id="terminalMenu">
-        <a href="#origin" class="clinical-link">[Origin]</a>
-        <a href="#subject-profile" class="clinical-link">[Subject_Profile]</a>
-        <a href="#signal-intercept" class="clinical-link">[Signal_Intercept]</a>
+        <a href="profile.html" class="clinical-link boot-link">[Subject_Profile]</a>
+        <a href="archive.html" class="clinical-link boot-link">[Archives]</a>
+        <a href="#" class="clinical-link" id="storyLink">[Story]</a>
       </nav>
-      <h1 class="hero-title">whynot?</h1>
-      <div class="eye-wrap" id="eyeContainer">
-        <svg class="eye-svg" viewBox="0 0 200 120" aria-hidden="true">
-          <ellipse class="eye-rim" cx="100" cy="60" rx="88" ry="48" />
-          <ellipse class="eye-sclera" cx="100" cy="60" rx="76" ry="40" />
-          <g class="pupil" id="pupilGroup" transform="translate(100, 60)">
-            <circle class="pupil-ring" r="14" cx="0" cy="0" />
-            <circle class="pupil-dot" r="7" cx="0" cy="0" />
-          </g>
-        </svg>
+      <h1 class="hero-title">「subject 0013」</h1>
+      <div class="eye-wrap">
+        <div class="eye-panel" id="eyeContainer">
+          <svg class="eye-svg" viewBox="0 0 220 130" aria-hidden="true">
+            <defs>
+              <radialGradient id="lensFill" cx="50%" cy="50%" r="62%">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="0.98" />
+                <stop offset="72%" stop-color="#ececec" stop-opacity="0.88" />
+                <stop offset="100%" stop-color="#d7d7d7" stop-opacity="0.95" />
+              </radialGradient>
+              <radialGradient id="irisFill" cx="46%" cy="42%" r="60%">
+                <stop offset="0%" stop-color="#fefefe" />
+                <stop offset="64%" stop-color="#d8d8d8" />
+                <stop offset="100%" stop-color="#a6a6a6" />
+              </radialGradient>
+              <linearGradient id="frameShade" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0a0a0a" stop-opacity="0.06" />
+                <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0.22" />
+              </linearGradient>
+            </defs>
+            <rect class="eye-panel-border" x="6" y="6" width="208" height="118" rx="3" />
+            <rect class="eye-panel-shadow" x="8" y="8" width="204" height="114" rx="2" />
+            <g class="reticle-layer">
+              <line class="eye-axis" x1="110" y1="16" x2="110" y2="114" />
+              <line class="eye-axis" x1="20" y1="65" x2="200" y2="65" />
+              <circle class="reticle-ring" cx="110" cy="65" r="26" />
+              <circle class="reticle-ring-secondary" cx="110" cy="65" r="32" />
+            </g>
+            <ellipse class="eye-rim" cx="110" cy="65" rx="86" ry="40" />
+            <ellipse class="eye-sclera" cx="110" cy="65" rx="74" ry="31" />
+            <ellipse class="iris-shell" cx="110" cy="65" rx="23" ry="23" />
+            <circle class="iris-ring" cx="110" cy="65" r="18" />
+            <g class="pupil" id="pupilGroup" transform="translate(110, 65)">
+              <circle class="pupil-ring" r="12" cx="0" cy="0" />
+              <circle class="pupil-dot" r="5.5" cx="0" cy="0" />
+            </g>
+            <g class="tick-marks">
+              <line x1="110" y1="23" x2="110" y2="29" />
+              <line x1="110" y1="101" x2="110" y2="107" />
+              <line x1="67" y1="65" x2="73" y2="65" />
+              <line x1="147" y1="65" x2="153" y2="65" />
+            </g>
+          </svg>
+          <div class="scanline"></div>
+        </div>
       </div>
       <p class="eye-label">Curiosity tracked</p>
     </header>
 
     <main class="main">
       <p class="section-label">Decision Matrix</p>
-      <div class="cards">
-        <article class="card">
-          <div class="evidence">
-            <div class="crop-mark tl"></div>
-            <div class="crop-mark tr"></div>
-            <div class="crop-mark bl"></div>
-            <div class="crop-mark br"></div>
-            <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80" alt="Observation frame one" class="card-image" />
-            <div class="grid-overlay"></div>
-            <div class="live-num success-num">ROI <span class="live-value" data-base="67">67</span>%</div>
-            <div class="live-num empathy-num">EC <span class="live-value" data-base="31">31</span>%</div>
-          </div>
-          <h2 class="card-title">Leaving the stable role for contract work</h2>
-          <div class="card-meta">
-            <span>Rationality <span class="value">67%</span></span>
-            <span>Risk <span class="value">High</span></span>
-          </div>
-          <p class="card-excerpt scan-text">Cash flow variance modeled against sleep debt.<br>Preliminary finding: acceptable under constrained runway.</p>
-          <button type="button" class="risk-btn">Risk Assessment</button>
-        </article>
-
-        <article class="card">
-          <div class="evidence">
-            <div class="crop-mark tl"></div>
-            <div class="crop-mark tr"></div>
-            <div class="crop-mark bl"></div>
-            <div class="crop-mark br"></div>
-            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80" alt="Observation frame two" class="card-image" />
-            <div class="grid-overlay"></div>
-            <div class="live-num success-num">ROI <span class="live-value" data-base="41">41</span>%</div>
-            <div class="live-num empathy-num">EC <span class="live-value" data-base="46">46</span>%</div>
-          </div>
-          <h2 class="card-title">Replying to the message at 02:14</h2>
-          <div class="card-meta">
-            <span>Rationality <span class="value">41%</span></span>
-            <span>Risk <span class="value">Low</span></span>
-          </div>
-          <p class="card-excerpt scan-text">Latency suggests impulse dominance.<br>Downstream cost to morning cognition: elevated.</p>
-          <button type="button" class="risk-btn">Risk Assessment</button>
-        </article>
-
-        <article class="card">
-          <div class="evidence">
-            <div class="crop-mark tl"></div>
-            <div class="crop-mark tr"></div>
-            <div class="crop-mark bl"></div>
-            <div class="crop-mark br"></div>
-            <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=80" alt="Observation frame three" class="card-image" />
-            <div class="grid-overlay"></div>
-            <div class="live-num success-num">ROI <span class="live-value" data-base="88">88</span>%</div>
-            <div class="live-num empathy-num">EC <span class="live-value" data-base="79">79</span>%</div>
-          </div>
-          <h2 class="card-title">Silence when disclosure was expected</h2>
-          <div class="card-meta">
-            <span>Rationality <span class="value">88%</span></span>
-            <span>Risk <span class="value">Fatal</span></span>
-          </div>
-          <p class="card-excerpt scan-text">Information asymmetry preserved.<br>Relational fracture probability: non-linear above threshold.</p>
-          <button type="button" class="risk-btn">Risk Assessment</button>
-        </article>
-
-        <article class="card">
-          <div class="evidence">
-            <div class="crop-mark tl"></div>
-            <div class="crop-mark tr"></div>
-            <div class="crop-mark bl"></div>
-            <div class="crop-mark br"></div>
-            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80" alt="Observation frame four" class="card-image" />
-            <div class="grid-overlay"></div>
-            <div class="live-num success-num">ROI <span class="live-value" data-base="22">22</span>%</div>
-            <div class="live-num empathy-num">EC <span class="live-value" data-base="14">14</span>%</div>
-          </div>
-          <h2 class="card-title">Buying the warranty</h2>
-          <div class="card-meta">
-            <span>Rationality <span class="value">22%</span></span>
-            <span>Risk <span class="value">Low</span></span>
-          </div>
-          <p class="card-excerpt scan-text">Expected value negative.<br>Emotional premium for certainty: logged, not judged.</p>
-          <button type="button" class="risk-btn">Risk Assessment</button>
-        </article>
+      <div class="cards" id="homeCards"></div>
+      <div class="section-actions">
+        <a class="archive-link boot-link" href="archive.html">View Full Archive</a>
       </div>
-
-      <section class="simulator" aria-labelledby="sim-heading" id="subject-profile">
-        <h3 id="sim-heading">Decision simulator</h3>
-        <div class="sim-toggle" role="group" aria-label="Choice">
-          <button type="button" id="btnNo" aria-pressed="false">No</button>
-          <button type="button" id="btnYes" aria-pressed="false">Yes</button>
-        </div>
-        <div class="sim-result empty scan-text" id="simResult" aria-live="polite">Select a position to compute outcome.</div>
-      </section>
 
       <section class="obs-section" id="signal-intercept">
         <h2>Recent observations</h2>
-        <ul class="obs-list">
-          <li><span class="obs-date">Mar 12</span>Subject reduced narrative coherence under time pressure.</li>
-          <li><span class="obs-date">Mar 08</span>Optimism bias detected in portfolio of unfinished tasks.</li>
-          <li><span class="obs-date">Mar 02</span>Social cost of honesty: asymmetrically distributed.</li>
-          <li><span class="obs-date">Feb 26</span>Hedonic adaptation rate within predicted interval.</li>
-        </ul>
+        <ul class="obs-list" id="observationsList"></ul>
       </section>
 
       <div class="void-row" id="contaminate">

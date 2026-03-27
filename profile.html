@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>「subject 0013」 - Subject Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body data-page="profile">
+  <div class="boot-screen" id="bootScreen" aria-live="polite">
+    <p class="boot-line" id="bootLineA">INITIALIZING_AUDIT...</p>
+    <p class="boot-line boot-line-muted" id="bootLineB">SUBJECT_DETECTED.</p>
+  </div>
+
+  <aside class="bio-bar" aria-label="Biometric sidebar">
+    <h2 class="bio-title">Patient Monitor</h2>
+    <div class="bio-block">
+      <p class="bio-label">Depth of Intrusion</p>
+      <p class="bio-value"><span id="depthValue">0</span>%</p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Exposure Duration</p>
+      <p class="bio-value"><span id="timeValue">00:00</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Load Index</p>
+      <p class="bio-value"><span id="loadValue">0</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Session State</p>
+      <p class="bio-value"><span id="stateValue">Stable</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Action Count</p>
+      <p class="bio-value"><span id="actionValue">0</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Stress Signature</p>
+      <svg class="stress-svg" viewBox="0 0 180 50" preserveAspectRatio="none" aria-hidden="true">
+        <path id="stressPath" d="M0 25 L20 25 L28 8 L36 43 L44 10 L52 37 L60 25 L180 25"></path>
+      </svg>
+    </div>
+    <div class="bio-ticker" id="bioTicker" data-ticker="Status: Profile Audit Active... Stress Level: Nominal... Depth Reading: Active..." aria-label="Live monitoring ticker"></div>
+  </aside>
+
+  <div class="wrap">
+    <header class="hero">
+      <nav class="clinical-nav">
+        <a href="index.html" class="clinical-link boot-link">[Origin]</a>
+        <a href="profile.html" class="clinical-link boot-link">[Subject_Profile]</a>
+        <a href="archive.html" class="clinical-link boot-link">[Archive]</a>
+      </nav>
+      <h1 class="hero-title">subject profile</h1>
+      <p class="eye-label">System baseline and audit protocol</p>
+    </header>
+
+    <main class="main post-main">
+      <article class="post-article">
+        <p class="section-label">Identity Layer</p>
+        <h1 class="post-title">Why this log exists</h1>
+        <p class="post-summary">This space tracks decisions with low-emotion documentation. It is a personal audit system, not advice.</p>
+
+        <div class="post-body">
+          <h2>Profile Snapshot</h2>
+          <ul>
+            <li>Mode: reflective execution journaling</li>
+            <li>Frequency: weekly case files + daily observations</li>
+            <li>Primary domains: career, learning, relationships, money</li>
+          </ul>
+
+          <h2>Scoring Protocol</h2>
+          <ul>
+            <li>Rationality Score: subjective logic-to-impulse ratio</li>
+            <li>Risk Level: low / high / fatal based on downside magnitude</li>
+            <li>ROI: expected decision return under current constraints</li>
+            <li>Empathy Cost: estimated interpersonal impact</li>
+          </ul>
+
+          <h2>Writing Standard</h2>
+          <p>Each case includes context, options considered, chosen action, outcome window, and final verdict. Narrative drift is minimized; measurable effects are preferred.</p>
+
+          <h2>Baseline Calibrator</h2>
+          <div class="profile-calibrator" id="profileCalibrator">
+            <label class="calibrator-row">Sleep Quality
+              <input type="range" min="0" max="100" value="62" id="sleepRange" />
+            </label>
+            <label class="calibrator-row">Focus Stability
+              <input type="range" min="0" max="100" value="71" id="focusRange" />
+            </label>
+            <label class="calibrator-row">Social Load
+              <input type="range" min="0" max="100" value="48" id="socialRange" />
+            </label>
+            <p class="calibrator-output">Cognitive Stability Index: <span id="csiValue">64</span></p>
+            <p class="calibrator-note scan-text" id="csiNote">Baseline stable. Variance accepted.</p>
+          </div>
+        </div>
+      </article>
+      <div class="section-actions">
+        <a class="archive-link boot-link" href="index.html">Back to Origin</a>
+        <a class="archive-link boot-link" href="archive.html">View All Cases</a>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

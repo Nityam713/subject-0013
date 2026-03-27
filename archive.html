@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>「subject 0013」 - Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body data-page="archive">
+  <aside class="bio-bar" aria-label="Biometric sidebar">
+    <h2 class="bio-title">Patient Monitor</h2>
+    <div class="bio-block">
+      <p class="bio-label">Depth of Intrusion</p>
+      <p class="bio-value"><span id="depthValue">0</span>%</p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Exposure Duration</p>
+      <p class="bio-value"><span id="timeValue">00:00</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Load Index</p>
+      <p class="bio-value"><span id="loadValue">0</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Session State</p>
+      <p class="bio-value"><span id="stateValue">Stable</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Action Count</p>
+      <p class="bio-value"><span id="actionValue">0</span></p>
+    </div>
+    <div class="bio-block">
+      <p class="bio-label">Stress Signature</p>
+      <svg class="stress-svg" viewBox="0 0 180 50" preserveAspectRatio="none" aria-hidden="true">
+        <path id="stressPath" d="M0 25 L20 25 L28 8 L36 43 L44 10 L52 37 L60 25 L180 25"></path>
+      </svg>
+    </div>
+    <div class="bio-ticker" id="bioTicker" data-ticker="Status: Subject Analyzing... Stress Level: Nominal... Depth Reading: Active..." aria-label="Live monitoring ticker"></div>
+  </aside>
+
+  <div class="wrap">
+    <header class="hero" id="origin">
+      <nav class="clinical-nav" id="terminalMenu">
+        <a href="index.html" class="clinical-link boot-link">[Origin]</a>
+        <a href="profile.html" class="clinical-link boot-link">[Subject_Profile]</a>
+        <a href="archive.html" class="clinical-link boot-link">[Archive]</a>
+      </nav>
+      <h1 class="hero-title">case archive</h1>
+      <p class="eye-label">All observed decisions</p>
+    </header>
+
+    <main class="main">
+      <p class="section-label">All Cases</p>
+      <div class="cards" id="archiveCards"></div>
+    </main>
+  </div>
+
+  <div class="risk-modal" id="riskModal" role="dialog" aria-modal="true" aria-labelledby="riskQuestion" hidden>
+    <div class="risk-panel">
+      <p id="riskQuestion">Is the outcome worth the damage?</p>
+      <div class="risk-actions">
+        <button type="button" id="riskAccept">[Accept]</button>
+        <button type="button" id="riskRecalculate">[Recalculate]</button>
+      </div>
+    </div>
+  </div>
+  <div class="static-overlay" id="staticOverlay" aria-hidden="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

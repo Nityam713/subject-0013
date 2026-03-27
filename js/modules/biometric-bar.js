@@ -1,6 +1,9 @@
 export function initBiometricBar(store) {
   var depthValue = document.getElementById("depthValue");
   var timeValue = document.getElementById("timeValue");
+  var loadValue = document.getElementById("loadValue");
+  var stateValue = document.getElementById("stateValue");
+  var actionValue = document.getElementById("actionValue");
   var stressPath = document.getElementById("stressPath");
   var ticker = document.getElementById("bioTicker");
   if (!depthValue || !timeValue || !stressPath || !ticker) return;
@@ -10,9 +13,23 @@ export function initBiometricBar(store) {
   var lastY = 0;
   var lastTime = performance.now();
   var stressBase = 24;
+  var actions = 0;
 
   store.subscribe(function (state) {
     depthValue.textContent = String(state.scrollDepth);
+    if (loadValue) {
+      var loadIndex = Math.max(0, Math.min(100, Math.round(state.mouseSpeed * 42 + state.scrollDepth * 0.35)));
+      loadValue.textContent = String(loadIndex);
+    }
+    if (stateValue) {
+      var sessionState = "Stable";
+      if (state.mouseSpeed > 1.5 || state.scrollDepth > 80) sessionState = "Escalating";
+      else if (state.mouseSpeed > 0.8 || state.scrollDepth > 45) sessionState = "Scanning";
+      stateValue.textContent = sessionState;
+    }
+    if (actionValue) {
+      actionValue.textContent = String(actions);
+    }
     var stressLabel = state.mouseSpeed > 1 ? "elevated" : "nominal";
     ticker.setAttribute(
       "data-ticker",
@@ -38,6 +55,13 @@ export function initBiometricBar(store) {
     lastX = event.clientX;
     lastY = event.clientY;
     lastTime = now;
+  });
+
+  document.addEventListener("click", function (event) {
+    if (event.target.closest("a, button")) {
+      actions += 1;
+      if (actionValue) actionValue.textContent = String(actions);
+    }
   });
 
   setInterval(function () {

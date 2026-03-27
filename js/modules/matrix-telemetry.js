@@ -1,9 +1,11 @@
 export function initMatrixTelemetry() {
-  var liveValues = document.querySelectorAll(".live-value");
+  var page = document.body.getAttribute("data-page");
   var cardsContainer = document.querySelector(".cards");
-  if (!liveValues.length || !cardsContainer) return;
+  if (!cardsContainer) return;
 
   setInterval(function () {
+    var liveValues = cardsContainer.querySelectorAll(".live-value");
+    if (!liveValues.length) return;
     liveValues.forEach(function (node) {
       var base = Number(node.getAttribute("data-base")) || 50;
       var next = Math.max(2, Math.min(99, base + Math.floor(Math.random() * 9) - 4));
@@ -50,6 +52,7 @@ export function initMatrixTelemetry() {
 
   var cloning = false;
   window.addEventListener("scroll", function () {
+    if (page !== "home") return;
     if (!window.matchMedia("(max-width: 760px)").matches || cloning) return;
     if (window.innerHeight + window.scrollY < document.body.offsetHeight - 320) return;
     cloning = true;

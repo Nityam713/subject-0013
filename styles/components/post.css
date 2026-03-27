@@ -1,0 +1,95 @@
+.section-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.archive-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  border: 1px solid rgba(8, 8, 8, 0.2);
+  padding: 0.55rem 0.8rem;
+  color: var(--obsidian);
+}
+
+.archive-link:hover {
+  border-color: var(--surgical);
+  color: var(--surgical);
+}
+
+.post-wrap {
+  width: min(900px, calc(100vw - 2rem));
+}
+
+.post-main {
+  max-width: 760px;
+}
+
+.post-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 4vw, 2.25rem);
+  margin: 0 0 0.8rem;
+}
+
+.post-summary {
+  margin: 0 0 1.1rem;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.post-cover-wrap {
+  margin-bottom: 1rem;
+}
+
+.post-body h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1.15rem 0 0.45rem;
+}
+
+.post-body p,
+.post-body li {
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.post-body ul {
+  padding-left: 1.25rem;
+}
+
+.profile-calibrator {
+  border: 1px solid rgba(8, 8, 8, 0.18);
+  padding: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.calibrator-row {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.8rem;
+}
+
+.calibrator-row input[type="range"] {
+  width: 100%;
+  margin-top: 0.45rem;
+  accent-color: var(--surgical);
+}
+
+.calibrator-output {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 12px;
+}
+
+.calibrator-note {
+  margin: 0;
+  font-size: 11px;
+  opacity: 0.75;
+}

@@ -3,10 +3,10 @@ export function initEyeTracker() {
   var eyeContainer = document.getElementById("eyeContainer");
   if (!pupil || !eyeContainer) return;
 
-  var irisCx = 100;
-  var irisCy = 60;
-  var irisRx = 76 * 0.45;
-  var irisRy = 40 * 0.45;
+  var irisCx = 110;
+  var irisCy = 65;
+  var irisRx = 74 * 0.45;
+  var irisRy = 31 * 0.45;
   var maxDist = Math.min(irisRx, irisRy) - 8;
   var isMobile = window.matchMedia("(max-width: 760px)").matches;
 

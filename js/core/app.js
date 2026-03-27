@@ -9,6 +9,9 @@ import { initBiometricBar } from "../modules/biometric-bar.js";
 import { initVoidOverlay } from "../modules/void-overlay.js";
 import { initDecisionSimulator } from "../modules/decision-simulator.js";
 import { initRiskModal } from "../modules/risk-modal.js";
+import { initContentPages } from "../modules/content-pages.js";
+import { initProfileInteractions } from "../modules/profile-interactions.js";
+import { initNavTransition } from "../modules/nav-transition.js";
 
 export function bootstrapApp() {
   var store = createStore({
@@ -18,6 +21,7 @@ export function bootstrapApp() {
   });
 
   initBootScreen();
+  initContentPages();
   initEyeTracker();
   initScanText();
   initObserverBackground(store);
@@ -27,4 +31,6 @@ export function bootstrapApp() {
   initVoidOverlay();
   initDecisionSimulator();
   initRiskModal();
+  initProfileInteractions();
+  initNavTransition();
 }
