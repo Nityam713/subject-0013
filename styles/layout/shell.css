@@ -250,11 +250,26 @@ body.glitch-active {
 @media (max-width: 930px) {
   .wrap {
     width: 100%;
-    padding-right: 1rem;
-    padding-bottom: 4.5rem;
+    padding: 2rem 1rem 4.5rem;
   }
 
   .hero-title {
     font-size: clamp(3rem, 14vw, 4.4rem);
+  }
+}
+
+@media (max-width: 760px) {
+  .hero {
+    padding: 1rem 0 2.2rem;
+  }
+
+  .eye-wrap {
+    justify-content: center;
+  }
+
+  body[data-page="home"] .hero-title {
+    font-size: clamp(1.85rem, 8.8vw, 2.45rem);
+    letter-spacing: 0.08em;
+    white-space: nowrap;
   }
 }

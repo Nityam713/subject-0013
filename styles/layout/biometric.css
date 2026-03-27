@@ -92,8 +92,10 @@
     display: block;
     grid-column: 1 / -1;
     margin: 0;
-    font-size: 0.72rem;
-    letter-spacing: 0.16em;
+    font-size: 0.64rem;
+    letter-spacing: 0.14em;
+    line-height: 1;
+    text-align: center;
     text-transform: uppercase;
     opacity: 0.72;
   }
