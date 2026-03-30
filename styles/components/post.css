@@ -25,6 +25,29 @@
   width: min(900px, calc(100vw - 2rem));
 }
 
+/* Keep post hero label compact and centered across devices. */
+body[data-page="post"] .hero {
+  padding: 1rem 0 2rem;
+}
+
+body[data-page="post"] .hero .hero-title {
+  white-space: nowrap;
+  font-size: clamp(2rem, 8.4vw, 4.4rem);
+  letter-spacing: 0.09em;
+  margin: 0 0 0.75rem;
+}
+
+body[data-page="post"] .hero .eye-label {
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 760px) {
+  body[data-page="post"] .hero .hero-title {
+    font-size: clamp(1.7rem, 8vw, 2.6rem);
+    letter-spacing: 0.075em;
+  }
+}
+
 .post-main {
   max-width: 760px;
 }

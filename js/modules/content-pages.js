@@ -7,6 +7,11 @@ function formatDate(dateInput) {
   return date.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
 }
 
+function getArchiveHeading(post, postIndex) {
+  var archiveNumber = String(postIndex + 1).padStart(3, "0");
+  return "Archive " + archiveNumber;
+}
+
 function createCard(post) {
   return (
     '<article class="card">' +
@@ -25,7 +30,7 @@ function createCard(post) {
       "</div>" +
       '<p class="card-excerpt scan-text">' + post.summary + "</p>" +
       '<div class="card-actions">' +
-        '<a class="open-case-link" href="post.html?slug=' + encodeURIComponent(post.slug) + '">Open Case File</a>' +
+        '<a class="open-case-link" href="post.html?slug=' + encodeURIComponent(post.slug) + '">Open Experiment Log</a>' +
       "</div>" +
     "</article>"
   );
@@ -69,13 +74,20 @@ function renderPost() {
 
   var params = new URLSearchParams(window.location.search);
   var slug = params.get("slug");
-  var post = posts.find(function (entry) { return entry.slug === slug; }) || posts[0];
+  var postIndex = posts.findIndex(function (entry) { return entry.slug === slug; });
+  if (postIndex < 0) postIndex = 0;
+  var post = posts[postIndex];
 
-  title.textContent = post.title;
+  title.textContent = getArchiveHeading(post, postIndex);
   meta.innerHTML = "Date: " + formatDate(post.date) + " / Read Time: " + post.readTime + " / Risk: " + post.riskLevel;
   summary.textContent = post.summary;
   cover.src = post.coverImage;
-  cover.alt = "Evidence frame: " + post.title;
+  cover.alt = "Evidence frame: " + getArchiveHeading(post, postIndex);
+
+  if (post.bodyHtml) {
+    content.innerHTML = post.bodyHtml;
+    return;
+  }
 
   content.innerHTML =
     "<h2>Case Context</h2><p>" + post.sections.context + "</p>" +
