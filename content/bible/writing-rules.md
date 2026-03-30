@@ -88,15 +88,21 @@ Should feel like the most intelligent person in the room
 thinking out loud in a room where no one else can hear them.
 Length: as long as the thought requires. No longer.
 
-### The Crack — Entries About The Anomaly
+### The Crack — Entries Where the Version That Feels Appears
 This is the only place the rules bend. Slightly. Deliberately.
-Sentences grow longer. The declarative confidence softens at the edges.
-He occasionally revises mid-paragraph — visible in the prose as a shift,
-a restart, a sentence that contradicts the one before it without acknowledging it.
+
+The crack does not appear in entries about another person.
+It appears in entries where the data he is producing about himself
+does not match the model he holds of himself. A conclusion revisited
+without new evidence. A subject mentioned again without data requiring it.
+A sentence written and then — visible on the page — reconsidered.
+Not the logic. The weight of it.
+
 He does not name this. He does not notice it.
 The reader notices it.
 The crack must be subtle enough that a fast reader misses it.
-An attentive reader will feel it accumulating entry by entry.
+An attentive reader will feel it accumulating entry by entry —
+the pressure building behind a wall that does not know it is a wall.
 
 ---
 
@@ -196,9 +202,13 @@ The interruption lands harder when something real has been established first.
   Short story subjects shift. They are not saved.
 - Villains. No one in this world is evil. They are inside their story,
   playing the role their narrative density and genre require.
-  0013 does not judge. He observes.
+  0013 does not judge. He observes. Then he decides what to do with what he has observed.
 - Hope as a conclusion. Ambiguity is the correct ending register for this world.
   Things shift. Things are named. What the naming means — open.
+- Accidental damage. In the early entries, the harm he causes is incidental —
+  a consequence of precision, not intent. In the later entries, the intent is present.
+  This shift must be visible in the prose. He does not announce it.
+  The reader feels the temperature change.
 
 ---
 
@@ -226,6 +236,10 @@ Before submitting any generated content, run this check:
 4. Does any piece of writing state a world mechanic directly? Rewrite it as felt effect.
 5. Is every detail specific — the exact detail, not a representative one? If not, sharpen it.
 6. Does the piece end with resolution or hope as a conclusion? Rewrite the ending.
-7. Does the Anomaly entry contain the crack — the slight, unacknowledged softening? If not, add it.
+7. Does the crack entry contain the unacknowledged softening — visible in the gaps,
+   not in the statements? If not, add it.
+8. Is the predation conscious and deliberate in this entry, or accidental?
+   Does the prose register the correct version for where this entry sits in the arc?
+   Early: incidental. Middle: learning. Late: intentional. Calibrate accordingly.
 
-If all seven pass, the content is ready.
+If all eight pass, the content is ready.
