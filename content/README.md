@@ -1,6 +1,6 @@
 # Content — master map
 
-Single source of truth for Subject-0013 writing. The live site reads from `js/data/`; this tree is for canon, drafts, and generation.
+Single source of truth for Subject-0013 writing. The live site reads from `frontend/js/data/`; this tree is for canon, drafts, and generation.
 
 ---
 
@@ -46,7 +46,7 @@ content/
 6. `novel/arc-overview.md` + current `novel/phases/` file for journal chapters  
 7. `_index/continuity-log.md` before contradicting established facts  
 
-When templates return, read them after bible and before changing `js/data` shapes.
+When templates return, read them after bible and before changing `frontend/js/data` shapes.
 
 ---
 
