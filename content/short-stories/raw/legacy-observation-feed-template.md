@@ -1,3 +1,9 @@
+# Legacy: site observation feed template
+
+Previously `templates/observation-template.md`. Use for **Recent Observations** / `js/data/observations.js` style snippets.
+
+---
+
 # Whynot Observation Template
 
 Use this for short-form entries in **Recent Observations**. Keep each note brief, factual, and clinical.
