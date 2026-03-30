@@ -6,7 +6,7 @@
 }
 
 .card {
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-soft);
   padding: 0.75rem;
   background: var(--stark);
   cursor: crosshair;
@@ -61,12 +61,14 @@
   transition: opacity 0.2s ease;
 }
 
-.success-num {
+.density-num {
   left: 0.35rem;
 }
 
-.empathy-num {
+.genre-num {
   right: 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .crop-mark {
@@ -175,24 +177,6 @@
 @keyframes lineScan {
   from { clip-path: inset(0 100% 0 0); }
   to { clip-path: inset(0 0 0 0); }
-}
-
-.risk-btn {
-  margin-top: auto;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  padding: 0.55rem 0.9rem;
-  border: 1px solid var(--surgical);
-  background: transparent;
-  color: var(--surgical);
-  cursor: pointer;
-}
-
-.risk-btn:hover {
-  background: var(--surgical);
-  color: var(--stark);
 }
 
 .card-actions {

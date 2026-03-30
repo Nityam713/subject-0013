@@ -15,10 +15,12 @@ export function initProfileInteractions() {
     var csi = Math.max(0, Math.min(100, Math.round(sleep * 0.35 + focus * 0.45 + (100 - social) * 0.2)));
     csiValue.textContent = String(csi);
 
-    var note = "Baseline stable. Variance accepted.";
-    if (csi < 45) note = "Instability detected. Reduce social load and recover sleep.";
-    if (csi >= 45 && csi < 70) note = "Moderate drift. Execution quality may fluctuate.";
-    if (csi >= 70) note = "High coherence. Suitable for high-risk decisions.";
+    var note = "Signal clean. The Weave holds. You are readable.";
+    if (csi < 30) note = "Severe fragmentation. The story holding you together is under strain.";
+    else if (csi < 45) note = "Narrative load too high. You are losing the thread of yourself.";
+    else if (csi < 60) note = "Partial coherence. The method still works — but you are not fully present.";
+    else if (csi < 75) note = "Stable. You are inside the story and it is holding.";
+    else note = "High clarity. You see the edges. He would find this worth noting.";
     csiNote.textContent = note;
   }
 

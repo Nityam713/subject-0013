@@ -4,8 +4,8 @@
   top: 0;
   height: 100vh;
   width: 210px;
-  border-left: 1px solid rgba(8, 8, 8, 0.22);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.94), rgba(242, 242, 242, 0.94));
+  border-left: 1px solid var(--border-soft);
+  background: linear-gradient(to bottom, var(--bone), var(--parchment));
   padding: 1rem 0.8rem;
   z-index: 90;
   overflow: hidden;
@@ -78,8 +78,8 @@
     width: min(100% - 2rem, 840px);
     height: auto;
     margin: 0.85rem auto 0;
-    border: 1px solid rgba(8, 8, 8, 0.22);
-    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid var(--border-soft);
+    background: var(--bone);
     padding: 0.7rem 0.7rem 0.6rem;
     z-index: 1;
     overflow: hidden;

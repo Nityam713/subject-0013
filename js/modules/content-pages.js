@@ -8,29 +8,34 @@ function formatDate(dateInput) {
 }
 
 function getArchiveHeading(post, postIndex) {
-  var archiveNumber = String(postIndex + 1).padStart(3, "0");
-  return "Archive " + archiveNumber;
+  var n = Number(post.archiveNumber);
+  var index = Number.isFinite(n) && n >= 1 ? Math.floor(n) : postIndex + 1;
+  return "Archive " + String(index).padStart(3, "0");
 }
 
 function createCard(post) {
+  var density = post.metrics && post.metrics.narrativeDensity != null
+    ? post.metrics.narrativeDensity
+    : post.metrics && post.metrics.roi != null ? post.metrics.roi : 50;
+  var genre = post.genre || "Observation";
   return (
     '<article class="card">' +
       '<div class="evidence">' +
         '<div class="crop-mark tl"></div><div class="crop-mark tr"></div><div class="crop-mark bl"></div><div class="crop-mark br"></div>' +
         '<img src="' + post.coverImage + '" alt="Evidence frame: ' + post.title + '" class="card-image" />' +
         '<div class="grid-overlay"></div>' +
-        '<div class="live-num success-num">ROI <span class="live-value" data-base="' + post.metrics.roi + '">' + post.metrics.roi + "</span>%</div>" +
-        '<div class="live-num empathy-num">EC <span class="live-value" data-base="' + post.metrics.empathyCost + '">' + post.metrics.empathyCost + "</span>%</div>" +
+        '<div class="live-num density-num">ND <span class="live-value" data-base="' + density + '">' + density + "</span></div>" +
+        '<div class="live-num genre-num">' + genre + "</div>" +
       "</div>" +
       '<h2 class="card-title">' + post.title + "</h2>" +
       '<div class="card-meta">' +
-        "<span>Date <span class=\"value\">" + formatDate(post.date) + "</span></span>" +
-        "<span>Rationality <span class=\"value\">" + post.rationalityScore + "%</span></span>" +
+        "<span>Filed <span class=\"value\">" + formatDate(post.date) + "</span></span>" +
+        "<span>Coherence <span class=\"value\">" + post.rationalityScore + "%</span></span>" +
         "<span>Risk <span class=\"value\">" + post.riskLevel + "</span></span>" +
       "</div>" +
       '<p class="card-excerpt scan-text">' + post.summary + "</p>" +
       '<div class="card-actions">' +
-        '<a class="open-case-link" href="post.html?slug=' + encodeURIComponent(post.slug) + '">Open Experiment Log</a>' +
+        '<a class="open-case-link" href="post.html?slug=' + encodeURIComponent(post.slug) + '">Open ledger entry</a>' +
       "</div>" +
     "</article>"
   );
@@ -79,7 +84,7 @@ function renderPost() {
   var post = posts[postIndex];
 
   title.textContent = getArchiveHeading(post, postIndex);
-  meta.innerHTML = "Date: " + formatDate(post.date) + " / Read Time: " + post.readTime + " / Risk: " + post.riskLevel;
+  meta.innerHTML = "Filed: " + formatDate(post.date) + " &nbsp;·&nbsp; Read: " + post.readTime + " &nbsp;·&nbsp; Risk tier: " + post.riskLevel;
   summary.textContent = post.summary;
   cover.src = post.coverImage;
   cover.alt = "Evidence frame: " + getArchiveHeading(post, postIndex);
@@ -90,13 +95,13 @@ function renderPost() {
   }
 
   content.innerHTML =
-    "<h2>Case Context</h2><p>" + post.sections.context + "</p>" +
-    "<h2>Observed Options</h2><ul>" +
+    "<h2>Stated conditions</h2><p>" + post.sections.context + "</p>" +
+    "<h2>Competing hypotheses</h2><ul>" +
       post.sections.options.map(function (option) { return "<li>" + option + "</li>"; }).join("") +
     "</ul>" +
-    "<h2>Chosen Action</h2><p>" + post.sections.action + "</p>" +
-    "<h2>Outcome</h2><p>" + post.sections.outcome + "</p>" +
-    "<h2>Final Verdict</h2><p>" + post.sections.verdict + "</p>";
+    "<h2>Method executed</h2><p>" + post.sections.action + "</p>" +
+    "<h2>Result</h2><p>" + post.sections.outcome + "</p>" +
+    "<h2>Conclusion filed</h2><p>" + post.sections.verdict + "</p>";
 }
 
 export function initContentPages() {

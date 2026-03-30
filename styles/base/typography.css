@@ -1,16 +1,50 @@
 body {
   font-family: "IBM Plex Mono", monospace;
   font-size: 13px;
-  line-height: 1.55;
+  line-height: 1.6;
   letter-spacing: 0.02em;
+  color: var(--ink);
 }
 
 .hero-title,
 .card-title,
-.simulator h3,
 .obs-section h2,
 .bio-title,
-.risk-panel p,
-.void-line {
+.void-line,
+.post-title {
   font-family: "Playfair Display", Georgia, serif;
+}
+
+/* Serif body text for post/profile reading — warmer, less clinical */
+.post-body p,
+.post-body li,
+.post-summary {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--ink);
+}
+
+/* Section headings inside post body stay mono — cold, filed */
+.post-body h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  opacity: 0.55;
+  margin: 2rem 0 0.6rem;
+}
+
+/* Archive intro line */
+.archive-intro {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.75;
+  opacity: 0.7;
+  max-width: 62ch;
+  margin: 0 0 1.5rem;
+  font-style: italic;
 }

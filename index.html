@@ -11,14 +11,14 @@
 </head>
 <body data-page="home">
   <div class="boot-screen" id="bootScreen" aria-live="polite">
-    <p class="boot-line" id="bootLineA">INITIALIZING_AUDIT...</p>
-    <p class="boot-line boot-line-muted" id="bootLineB">SUBJECT_DETECTED.</p>
+    <p class="boot-line" id="bootLineA">READING_SUBJECT...</p>
+    <p class="boot-line boot-line-muted" id="bootLineB">YOU ARE BEING OBSERVED.</p>
   </div>
 
-  <aside class="bio-bar" aria-label="Biometric sidebar">
-    <h2 class="bio-title">Patient Monitor</h2>
+  <aside class="bio-bar" aria-label="Subject monitor">
+    <h2 class="bio-title">Subject Monitor</h2>
     <div class="bio-block">
-      <p class="bio-label">Depth of Intrusion</p>
+      <p class="bio-label">Read depth</p>
       <p class="bio-value"><span id="depthValue">0</span>%</p>
     </div>
     <div class="bio-block">
@@ -48,11 +48,6 @@
 
   <div class="wrap">
     <header class="hero" id="origin">
-      <nav class="clinical-nav" id="terminalMenu">
-        <a href="profile.html" class="clinical-link boot-link">[Subject_Profile]</a>
-        <a href="archive.html" class="clinical-link boot-link">[Archives]</a>
-        <a href="#" class="clinical-link" id="storyLink">[Story]</a>
-      </nav>
       <h1 class="hero-title">「subject 0013」</h1>
       <div class="eye-wrap">
         <div class="eye-panel" id="eyeContainer">
@@ -99,48 +94,42 @@
           <div class="scanline"></div>
         </div>
       </div>
-      <p class="eye-label">Curiosity tracked</p>
+      <p class="eye-label">You have been logged.</p>
+      <nav class="clinical-nav" id="terminalMenu">
+        <a href="profile.html" class="clinical-link boot-link">[Subject_Profile]</a>
+        <a href="archive.html" class="clinical-link boot-link">[Archives]</a>
+        <a href="#" class="clinical-link" id="storyLink">[Weave]</a>
+      </nav>
     </header>
 
     <main class="main">
-      <p class="section-label">Decision Matrix</p>
+      <p class="section-label">Filed cases</p>
       <div class="cards" id="homeCards"></div>
       <div class="section-actions">
-        <a class="archive-link boot-link" href="archive.html">View Full Archive</a>
+        <a class="archive-link boot-link" href="archive.html">Open full archive</a>
       </div>
 
       <section class="obs-section" id="signal-intercept">
-        <h2>Recent observations</h2>
+        <h2>Things noted in passing</h2>
         <ul class="obs-list" id="observationsList"></ul>
       </section>
 
       <div class="void-row" id="contaminate">
-        <button type="button" class="btn-void" id="submitThought">Submit a thought</button>
+        <button type="button" class="btn-void" id="submitThought">You have something to say.</button>
       </div>
     </main>
   </div>
 
   <div class="void-overlay" id="voidOverlay" role="dialog" aria-modal="true" aria-labelledby="voidQuestion" hidden>
     <div>
-      <p class="void-line" id="voidQuestion">Are you sure you want to know?</p>
+      <p class="void-line" id="voidQuestion">Say it. I am listening.</p>
       <div class="void-actions" id="voidActions">
-        <button type="button" class="primary" id="voidYes">Yes</button>
-        <button type="button" id="voidNo">No</button>
+        <button type="button" class="primary" id="voidYes">Say it.</button>
+        <button type="button" id="voidNo">Not yet.</button>
       </div>
     </div>
   </div>
 
-  <div class="risk-modal" id="riskModal" role="dialog" aria-modal="true" aria-labelledby="riskQuestion" hidden>
-    <div class="risk-panel">
-      <p id="riskQuestion">Is the outcome worth the damage?</p>
-      <div class="risk-actions">
-        <button type="button" id="riskAccept">[Accept]</button>
-        <button type="button" id="riskRecalculate">[Recalculate]</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="static-overlay" id="staticOverlay" aria-hidden="true"></div>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

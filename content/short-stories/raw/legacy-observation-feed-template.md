@@ -1,6 +1,6 @@
 # Legacy: site observation feed template
 
-Previously `templates/observation-template.md`. Use for **Recent Observations** / `js/data/observations.js` style snippets.
+Use for **Recent Observations** / `js/data/observations.js` style snippets.
 
 ---
 

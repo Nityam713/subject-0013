@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body data-page="archive">
-  <aside class="bio-bar" aria-label="Biometric sidebar">
-    <h2 class="bio-title">Patient Monitor</h2>
+  <aside class="bio-bar" aria-label="Subject monitor">
+    <h2 class="bio-title">Subject Monitor</h2>
     <div class="bio-block">
-      <p class="bio-label">Depth of Intrusion</p>
+      <p class="bio-label">Read depth</p>
       <p class="bio-value"><span id="depthValue">0</span>%</p>
     </div>
     <div class="bio-block">
@@ -43,31 +43,22 @@
 
   <div class="wrap">
     <header class="hero" id="origin">
-      <nav class="clinical-nav" id="terminalMenu">
+      <h1 class="hero-title">archive index</h1>
+      <p class="eye-label">Every case. Every subject. Filed.</p>
+      <nav class="clinical-nav">
         <a href="index.html" class="clinical-link boot-link">[Origin]</a>
         <a href="profile.html" class="clinical-link boot-link">[Subject_Profile]</a>
         <a href="archive.html" class="clinical-link boot-link">[Archive]</a>
       </nav>
-      <h1 class="hero-title">case archive</h1>
-      <p class="eye-label">All observed decisions</p>
     </header>
 
     <main class="main">
-      <p class="section-label">All Cases</p>
+      <p class="section-label">The full record</p>
+      <p class="archive-intro">Every entry is a closed case. Pattern confirmed. Subject moved on. The record remains because in this world, to be documented is to be made more real. Read accordingly.</p>
       <div class="cards" id="archiveCards"></div>
     </main>
   </div>
 
-  <div class="risk-modal" id="riskModal" role="dialog" aria-modal="true" aria-labelledby="riskQuestion" hidden>
-    <div class="risk-panel">
-      <p id="riskQuestion">Is the outcome worth the damage?</p>
-      <div class="risk-actions">
-        <button type="button" id="riskAccept">[Accept]</button>
-        <button type="button" id="riskRecalculate">[Recalculate]</button>
-      </div>
-    </div>
-  </div>
-  <div class="static-overlay" id="staticOverlay" aria-hidden="true"></div>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

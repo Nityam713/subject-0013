@@ -1,6 +1,7 @@
 export var posts = [
   {
     id: "010",
+    archiveNumber: 1,
     slug: "observation-log-archive-001",
     title: "Observation Log: Archive 001",
     date: "2026-03-27",

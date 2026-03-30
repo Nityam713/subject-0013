@@ -1,8 +1,12 @@
 :root {
+  /* Core palette */
   --stark: #ffffff;
-  --bone: #f2f2f2;
+  --bone: #f5f3ef;          /* paper — warm off-white, not clinical white */
+  --parchment: #ede9e2;     /* aged document tone */
   --obsidian: #080808;
-  --surgical: #c41e3a;
+  --ink: #1a1a1a;           /* body text — softer than pure black */
+  --surgical: #c41e3a;      /* signal red — used sparingly, only for critical data */
   --border: #111111;
-  --xray: rgba(8, 8, 8, 0.05);
+  --border-soft: rgba(8, 8, 8, 0.14);
+  --xray: rgba(8, 8, 8, 0.04);
 }

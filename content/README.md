@@ -27,11 +27,7 @@ content/
 │   ├── published/
 │   ├── revised/
 │   └── raw/
-├── templates/                         # schemas + blank forms
-│   ├── content-schema.md
-│   ├── novel-entry-template.md
-│   ├── short-story-template.md
-│   └── character-file-template.md
+├── templates/                         # empty for now — add schemas/forms after story redesign
 └── _index/                            # cross-reference
     ├── character-appearances.md
     ├── theme-tracker.md
@@ -49,7 +45,8 @@ content/
 5. Relevant `characters/tier-*/` files for whoever appears  
 6. `novel/arc-overview.md` + current `novel/phases/` file for journal chapters  
 7. `_index/continuity-log.md` before contradicting established facts  
-8. Matching file under `templates/` for the format being written  
+
+When templates return, read them after bible and before changing `js/data` shapes.
 
 ---
 

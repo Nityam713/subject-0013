@@ -11,14 +11,14 @@
 </head>
 <body data-page="profile">
   <div class="boot-screen" id="bootScreen" aria-live="polite">
-    <p class="boot-line" id="bootLineA">INITIALIZING_AUDIT...</p>
-    <p class="boot-line boot-line-muted" id="bootLineB">SUBJECT_DETECTED.</p>
+    <p class="boot-line" id="bootLineA">READING_SUBJECT...</p>
+    <p class="boot-line boot-line-muted" id="bootLineB">YOU ARE BEING OBSERVED.</p>
   </div>
 
-  <aside class="bio-bar" aria-label="Biometric sidebar">
-    <h2 class="bio-title">Patient Monitor</h2>
+  <aside class="bio-bar" aria-label="Subject monitor">
+    <h2 class="bio-title">Subject Monitor</h2>
     <div class="bio-block">
-      <p class="bio-label">Depth of Intrusion</p>
+      <p class="bio-label">Read depth</p>
       <p class="bio-value"><span id="depthValue">0</span>%</p>
     </div>
     <div class="bio-block">
@@ -48,59 +48,71 @@
 
   <div class="wrap">
     <header class="hero">
+      <h1 class="hero-title">subject profile</h1>
+      <p class="eye-label">Restricted summary · read anyway</p>
       <nav class="clinical-nav">
         <a href="index.html" class="clinical-link boot-link">[Origin]</a>
         <a href="profile.html" class="clinical-link boot-link">[Subject_Profile]</a>
         <a href="archive.html" class="clinical-link boot-link">[Archive]</a>
       </nav>
-      <h1 class="hero-title">subject profile</h1>
-      <p class="eye-label">System baseline and audit protocol</p>
     </header>
 
     <main class="main post-main">
       <article class="post-article">
-        <p class="section-label">Identity Layer</p>
-        <h1 class="post-title">Why this log exists</h1>
-        <p class="post-summary">This space tracks decisions with low-emotion documentation. It is a personal audit system, not advice.</p>
+        <p class="section-label">On record</p>
+        <h1 class="post-title">Who is Subject-0013</h1>
+        <p class="post-summary">You've come to learn about him, and he's known you would.</p>
 
         <div class="post-body">
-          <h2>Profile Snapshot</h2>
-          <ul>
-            <li>Mode: reflective execution journaling</li>
-            <li>Frequency: weekly case files + daily observations</li>
-            <li>Primary domains: career, learning, relationships, money</li>
-          </ul>
+          <h2>No name. No past.</h2>
+          <p>His journal opens in the midst of a life stripped of context — no childhood tales, no familiar faces echoing from before. Designated as <strong>Subject-0013</strong>, he neither embraced nor resisted this label. It's trivial, a detail that holds no weight in his calculations.</p>
+          <p>Those who encounter him often forget him within an hour, or they find themselves inexplicably haunted by his presence for days. He transcends their expectations, adapting to whatever the moment demands, then disappears without a trace. He doesn't equate this with loneliness — a notion that may speak to either his profound honesty or deep sadness.</p>
 
-          <h2>Scoring Protocol</h2>
-          <ul>
-            <li>Rationality Score: subjective logic-to-impulse ratio</li>
-            <li>Risk Level: low / high / fatal based on downside magnitude</li>
-            <li>ROI: expected decision return under current constraints</li>
-            <li>Empathy Cost: estimated interpersonal impact</li>
-          </ul>
+          <h2>He calls it clarity.</h2>
+          <p>Unclouded by guilt or softened by hope, he perceives the world in raw data. He offers truths you never sought, always accurate, never remorseful.</p>
+          <blockquote>
+            <p><em>"Society is not a structure. It's a narrative we all consent to inhabit. I exist outside this narrative. I see its seams. That's what they choose to pathologize."</em></p>
+          </blockquote>
+          <p>He's not cruel — cruelty requires desire. He simply has none.</p>
 
-          <h2>Writing Standard</h2>
-          <p>Each case includes context, options considered, chosen action, outcome window, and final verdict. Narrative drift is minimized; measurable effects are preferred.</p>
+          <h2>Every individual is a file he's already closing.</h2>
+          <p>Observe. Infer. Apply pressure. Watch what shifts. By the time you feel you understand him, he's already moved on — encased in his own method, intentionally oblivious.</p>
 
-          <h2>Baseline Calibrator</h2>
+          <h2>To him, the world is a story. Perhaps he's right.</h2>
+          <p>Money, law, love — all woven together by tales we agree to accept. He refers to this intricate system as <strong>the Weave</strong>, not to admire it, but to discern which thread might unravel it all.</p>
+          <p>Then comes the unsettling question: <em>if a person is defined by the stories told about them — and he possesses none — what keeps him intact?</em></p>
+
+          <h2>There's one subject he cannot decode.</h2>
+          <p>Hundreds have been analysed and resolved, but this one eludes him. He refrains from naming them, opting instead for a sterile term — neutral, functional. Yet this clinical label infiltrates his entries, gaining weight and presence. Sentences about this individual lengthen, lose certainty, and sometimes shift mid-paragraph.</p>
+          <p>He's never revised mid-paragraph before. He claims it's mere curiosity. His journal begs to differ.</p>
+
+          <h2>He senses your gaze.</h2>
+          <p>Midway through his log, a shift occurs. He becomes aware of an unseen observer — one he calls <strong>The Reader</strong>. True to form, he begins to study this presence.</p>
+          <blockquote>
+            <p><em>"If there is a Reader — then I am not merely the observer. I have always been the subject."</em></p>
+          </blockquote>
+          <p>You're invited to continue reading. He expected you from the very first entry. The only question remains: will you fulfil his prediction — or surprise him? The prospect genuinely intrigues him.</p>
+
+          <h2>Visitor calibration</h2>
+          <p>Not his world. A toy left for you. Move the sliders — he would note, without judgment, that you did exactly what the interface suggested. He would also note what the number says about you.</p>
           <div class="profile-calibrator" id="profileCalibrator">
-            <label class="calibrator-row">Sleep Quality
+            <label class="calibrator-row">How intact is your story right now
               <input type="range" min="0" max="100" value="62" id="sleepRange" />
             </label>
-            <label class="calibrator-row">Focus Stability
+            <label class="calibrator-row">How clearly are you thinking
               <input type="range" min="0" max="100" value="71" id="focusRange" />
             </label>
-            <label class="calibrator-row">Social Load
+            <label class="calibrator-row">How much of today belonged to other people
               <input type="range" min="0" max="100" value="48" id="socialRange" />
             </label>
-            <p class="calibrator-output">Cognitive Stability Index: <span id="csiValue">64</span></p>
-            <p class="calibrator-note scan-text" id="csiNote">Baseline stable. Variance accepted.</p>
+            <p class="calibrator-output">Weave coherence: <span id="csiValue">64</span></p>
+            <p class="calibrator-note scan-text" id="csiNote">Signal clean. The Weave holds. You are readable.</p>
           </div>
         </div>
       </article>
       <div class="section-actions">
         <a class="archive-link boot-link" href="index.html">Back to Origin</a>
-        <a class="archive-link boot-link" href="archive.html">View All Cases</a>
+        <a class="archive-link boot-link" href="archive.html">Open archive index</a>
       </div>
     </main>
   </div>
