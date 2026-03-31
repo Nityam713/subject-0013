@@ -1,245 +1,229 @@
-# Writing Rules
-## Voice, Tone, and Absolute Constraints — Subject-0013
-
-This file defines how everything in this project is written.
-It applies to both tracks — the novel and the short stories.
-Where rules differ between tracks, they are marked clearly.
-
-AI instruction: Read this file after the character bible and world mechanics.
-Every piece of content generated must satisfy every rule in this file.
-If a sentence violates a rule, rewrite it. Do not leave violations and note them.
-Rewrite them.
+# WRITING RULES — SUBJECT 0013 NARRATIVE
+*These are not guidelines. They are structural laws. Break them only when the break itself is the point.*
 
 ---
 
-## The Two Voices
+## RULE 01 — THE WORLD IS REAL. ONLY THE WORLD IS REAL.
 
-This project has exactly two voices. Nothing else is permitted.
+This is a realist narrative. No magic systems. No sci-fi infrastructure. No supernatural explanation is ever confirmed.
 
-### Voice One — 0013 (Novel)
-Cold. Declarative. Precise. Completely without self-pity or self-congratulation.
-He does not perform. He does not explain himself. He does not invite the reader in.
-The reader is simply present while he works.
+The strangeness of 0013 is never explained by the world being strange. The world is ordinary. *He* is the anomaly. This distinction must be protected at all times.
 
-### Voice Two — The Subject (Short Stories)
-Warm. Interior. Fully human. Everything 0013 cannot access.
-Anxiety, memory, desire, embarrassment, hope, the specific texture of an ordinary day.
-This voice is never cold. It is never clinical. It earns its emotion by being specific.
-Vague emotion is not permitted. Name the exact feeling with the exact detail that caused it.
-
-These two voices must never bleed into each other.
-If a novel entry begins to feel warm, it is wrong.
-If a short story begins to feel clinical, it is wrong.
+When something uncanny happens — and it will — the writing must offer a rational explanation alongside the uncanny one, and never confirm which is true. The reader decides. The reader always decides.
 
 ---
 
-## Voice One Rules — 0013's Journal
+## RULE 02 — HE IS NEVER THE CAMERA. HE IS ALWAYS THE SUBJECT.
 
-### Sentence Structure
-Declarative sentences are the default. Subject. Verb. Object. Done.
-He does not wonder aloud. He does not ask questions he cannot answer.
-He forms conclusions and states them.
+Even in chapters written from 0013's perspective, the prose must maintain a faint clinical distance. We are inside his head, but we are also *observing* his head. Like a documentary crew that got too close.
 
-Short sentences carry weight. Use them for conclusions.
-Medium sentences carry observation. Use them for method and result.
-Long sentences are permitted only when the observation is genuinely complex —
-and they must remain precise. A long sentence that loses its thread is wrong.
-A long sentence that arrives at a sharper point than a short one could — correct.
+His interiority is reported, not performed. He does not have poetic emotions. He has precise observations about his own states, described with the accuracy of a man who has studied himself because there was nothing else available to study.
 
-### What He Never Does
-- He never says he feels anything. Ever.
-- He never softens a conclusion with "perhaps" or "possibly" or "it seems."
-- He never apologizes, in prose or in subtext.
-- He never describes himself physically.
-- He never uses a person's name unless it has been established in their character file
-  and its use is narratively necessary.
-- He never explains his own psychology to the reader.
-  The reader observes. He does not perform self-awareness for their benefit.
-- He never expresses loneliness. He may note isolation as a factual condition.
-  These are different things.
-- He never uses the word "feel" in reference to himself.
-  He uses: noted, observed, recorded, concluded, filed, moved on.
-
-### What He Always Does
-- States conclusions before evidence. The conclusion arrives first.
-  The evidence follows, if he bothers providing it.
-- Notices what others miss. Micro-expressions, timing, word choice, pauses,
-  the gap between what is said and what is meant.
-- Moves on. Every entry ends with departure — physical or cognitive.
-  He does not linger. Understanding collapses interest.
-- Returns to his society thesis. Not every entry. But regularly.
-  It is a thread he keeps pulling.
-
-### Vocabulary
-Clinical where possible. Precise always.
-He uses technical or structural language for emotional states —
-not because he is showing off, but because that is genuinely how he thinks.
-"She was performing grief" not "she seemed sad."
-"The hypothesis held" not "I was right."
-"Incomplete data" not "I was wrong."
-
-He does not use slang. He does not use filler phrases.
-Every word is chosen. None are decorative.
-
-### The Philosophical Digression
-Occurs when an observation connects to a larger pattern.
-Always cold. Always structured like a theorem being proved, not a feeling being expressed.
-Should feel like the most intelligent person in the room
-thinking out loud in a room where no one else can hear them.
-Length: as long as the thought requires. No longer.
-
-### The Crack — Entries Where the Version That Feels Appears
-This is the only place the rules bend. Slightly. Deliberately.
-
-The crack does not appear in entries about another person.
-It appears in entries where the data he is producing about himself
-does not match the model he holds of himself. A conclusion revisited
-without new evidence. A subject mentioned again without data requiring it.
-A sentence written and then — visible on the page — reconsidered.
-Not the logic. The weight of it.
-
-He does not name this. He does not notice it.
-The reader notices it.
-The crack must be subtle enough that a fast reader misses it.
-An attentive reader will feel it accumulating entry by entry —
-the pressure building behind a wall that does not know it is a wall.
+Wrong: *He felt the familiar darkness settle over him like a cloak.*
+Right: *He noticed he was reading the same line for the fourth time. He noted this. He continued.*
 
 ---
 
-## Voice Two Rules — The Subject (Short Stories)
+## RULE 03 — MANIPULATION IS NEVER ANNOUNCED.
 
-### Perspective
-Third person close or first person. Both are permitted.
-Choose based on the subject's psychology —
-a person who narrates their own life confidently: first person.
-A person slightly outside their own experience, watching themselves: third person close.
+0013 does not think "I will now manipulate this person." He thinks in terms of *interest*, *narrative*, *structure*. When he moves people, the prose treats it as reading — he finds the thread, he pulls, he observes what unravels.
 
-### Interiority
-This is the engine of the short story. Go inside the subject completely.
-Their thoughts are not summarized. They are rendered.
-Their feelings are not named in the abstract. They are produced by specific details.
-
-Wrong: "She felt anxious."
-Correct: "She had rearranged the salt shaker three times
-and was reaching for it again before she caught herself."
-
-### 0013's Presence in the Short Story
-He is never named. Never described completely.
-The subject notices pieces of him — a stillness, a quality of attention,
-the sense of being looked at by someone who is not performing looking.
-He arrives. He is present. He says the true thing. He leaves.
-His interior is completely closed. We see only his effect.
-
-### The Moment of Being Read
-Every short story contains this moment. It is the center.
-A stranger has said something exactly, uncomfortably true.
-The subject has not said this aloud. They have barely thought it clearly.
-
-This moment must not be dramatic. It must be quiet.
-The most devastating accuracy is delivered without fanfare.
-He does not pause for effect. He states. He continues.
-The weight lands after he has already moved on.
-
-### The Aftermath
-How the subject is different after he has gone.
-Small. Specific. Not resolved — shifted.
-He has not fixed them. He has not broken them.
-He has named something. In this world, named things have more narrative weight.
-They are, in some way they cannot articulate, more real than they were before.
-
-### What the Short Story Never Does
-- Names 0013.
-- Shows 0013's thoughts or interior.
-- Explains what he is or why he does this.
-- Ends with resolution. Endings are shifts, not closures.
-- Uses clinical or cold language in the subject's voice.
-  If the prose turns cold, it is wrong.
+The reader should sometimes understand what he is doing before other characters do. The reader should sometimes understand it only in retrospect. The reader should occasionally not understand it at all — and feel the discomfort of that gap.
 
 ---
 
-## Universal Rules — Both Tracks
+## RULE 04 — THE INSTITUTION SPEAKS IN PASSIVE VOICE.
 
-### The Mechanics Are Never Stated
-No character explains narrative ontology.
-No character says "stories construct reality."
-No character uses the words "narrative density" or "The Weave."
-The mechanics are present in the world the way gravity is present —
-felt, observable, never announced.
-0013 theorizes toward them obliquely, in the language of hypothesis.
-The short story subjects feel their effects without having concepts for them.
+All documentation, reports, and institutional text in the narrative is written in passive voice, bureaucratic register, with strategic redactions.
 
-### Specificity Over Generality. Always.
-Vague writing is wrong writing in this project.
-Every detail must be the exact detail, not a representative one.
-Not "a coffee shop" — the specific hour, the specific quality of light,
-the specific thing that is slightly off about the room.
-Not "she was upset" — the specific physical tell, the specific misdirection,
-the specific word she chose that gave it away.
-0013 notices everything. The prose must notice everything.
-
-### Nothing Is Explained to the Reader
-The reader is not guided. The reader is not protected.
-Conclusions are not summarized at the end of entries.
-Themes are not underlined. Motifs are not announced.
-The reader does the work. The prose trusts them to do it.
-
-### Pacing
-Novel entries: dense. Every sentence is doing something.
-No throat-clearing. No transitional filler. Begin in the middle.
-End when the thought ends, not when a word count is reached.
-
-Short stories: slower. The interiority requires room.
-Pace the approach of 0013. Let the subject's ordinary life
-be real and specific before it is interrupted.
-The interruption lands harder when something real has been established first.
-
-### What Is Never Written in Either Track
-- Coincidence that is not earned by the world's mechanics.
-- Sentimentality. Emotion earned by specificity is not sentimentality.
-  Emotion generated by manipulation — soft music, convenient timing,
-  stated feeling without specific cause — is sentimentality. Never use it.
-- Redemption arcs. 0013 does not change in ways that make him easier to be around.
-  Short story subjects shift. They are not saved.
-- Villains. No one in this world is evil. They are inside their story,
-  playing the role their narrative density and genre require.
-  0013 does not judge. He observes. Then he decides what to do with what he has observed.
-- Hope as a conclusion. Ambiguity is the correct ending register for this world.
-  Things shift. Things are named. What the naming means — open.
-- Accidental damage. In the early entries, the harm he causes is incidental —
-  a consequence of precision, not intent. In the later entries, the intent is present.
-  This shift must be visible in the prose. He does not announce it.
-  The reader feels the temperature change.
+The institution does not know what 0013 is. This must be legible in how it writes about him — the language of people reaching for categories that do not fit. The reports are confident in tone and uncertain in content. This is the voice of a system confronting something the system was not designed for.
 
 ---
 
-## Tonal Reference Points
+## RULE 05 — STORIES WITHIN THE STORY MUST BE REAL STORIES.
 
-When calibrating the novel voice, the prose should feel like:
-- A forensic report written by someone who finds the subject beautiful.
-- A scientist's field notes where the scientist is also the most interesting specimen.
-- Something that is almost warm, and then isn't, and you can't locate the exact moment it turned.
+When 0013 reads something — quotes it, describes it, responds to it — that text must feel genuinely authored. Not a placeholder. Not a summary.
 
-When calibrating the short story voice, the prose should feel like:
-- The inside of an ordinary day that has just become extraordinary in a quiet way.
-- The specific texture of being seen by someone who should not be able to see you.
-- Something that ends before it finishes, because that is how these things end.
+When writing these embedded texts: write them as if they exist in our world. Give them specificity. Give them flaws. They should be the kind of texts a real obsessive reader would underline, argue with, return to.
 
 ---
 
-## Final Instruction for AI
+## RULE 06 — HE IS NEVER EXPLAINED AWAY.
 
-Before submitting any generated content, run this check:
+No character in the narrative is allowed to fully explain 0013. Not the Archivist. Not the institution. Not 0013 himself.
 
-1. Does the novel entry contain a single hedged conclusion? Rewrite it.
-2. Does the novel entry describe 0013's feelings? Remove it.
-3. Does the short story name 0013 or show his interior? Remove it.
-4. Does any piece of writing state a world mechanic directly? Rewrite it as felt effect.
-5. Is every detail specific — the exact detail, not a representative one? If not, sharpen it.
-6. Does the piece end with resolution or hope as a conclusion? Rewrite the ending.
-7. Does the crack entry contain the unacknowledged softening — visible in the gaps,
-   not in the statements? If not, add it.
-8. Is the predation conscious and deliberate in this entry, or accidental?
-   Does the prose register the correct version for where this entry sits in the arc?
-   Early: incidental. Middle: learning. Late: intentional. Calibrate accordingly.
+Characters may *attempt* explanations. The narrative will always leave a remainder — something the explanation does not account for. This remainder is where the truth lives.
 
-If all eight pass, the content is ready.
+The moment 0013 is fully explained, he becomes a case study. He must remain a question.
+
+---
+
+## RULE 07 — THE READER IS IMPLICATED.
+
+The meta-narrative layer — 0013's slow awareness of being observed, of existing inside a story, of searching for the reader who made him — must be woven with restraint.
+
+No winking. No self-congratulatory postmodernism. The fourth wall is not broken. It is *pressured*.
+
+The reader should feel noticed. Not addressed. *Noticed*. There is a difference, and the writing must know the difference and honor it.
+
+Once per act, maximum. A moment where the prose's gaze shifts almost imperceptibly outward. Then back. As if nothing happened.
+
+---
+
+## RULE 08 — THE OTHER READERS ARE MIRRORS, NOT ALLIES.
+
+When 0013 encounters other readers, the temptation is to make them foils — characters who exist to contrast with him. Resist this.
+
+They are not foils. They are *what he could have been*. Each one represents a different answer to the same question: *what happens when a person's only emotional input is fiction?*
+
+The contrast should feel uncomfortable — not "here is the bad version and here is the good version," but "here are several ways this goes wrong, and none of them is clearly the worst."
+
+---
+
+## RULE 09 — VIOLENCE IS OFF-PAGE OR CLINICAL.
+
+0013 does not commit graphic violence on the page. When violence occurs — and it does — it is either:
+
+a) Reported after the fact, in institutional language
+b) Described in his own register: observational, interested, affectless
+
+The horror is never in the description of the act. It is in the *quality of attention* he brings to it. The horror is that he finds it interesting the same way he finds a story interesting.
+
+---
+
+## RULE 10 — THE LAST LINE OF EVERY CHAPTER IS HIS.
+
+Even in chapters where 0013 does not appear, the final line of prose belongs to him in some sense — in register, in implication, in the feeling it leaves. The narrative is his story. The world orbits him even in his absence.
+
+This does not mean he narrates. It means the story knows whose story it is.
+
+---
+
+## RULE 11 — "WHEREVER YOU ARE, I HOPE YOU ARE HAPPY."
+
+This line — or a close variant — appears once in the narrative. Its placement is a structural decision, not an emotional one. It is not a moment of warmth. It is a moment of recognition.
+
+When it appears, the reader should not be sure if 0013 means them.
+
+They should not be sure he doesn't.
+
+---
+
+## RULE 12 — PACING IS EMOTIONAL TEMPERATURE, NOT SPEED
+
+The three phases of this narrative have three different temperatures.
+
+**Phase 1 — Clinical:** Cold and slow. Long scenes. Institutional documents between chapters. The reader settles into 0013's rhythm — the comfort of a mind that has organized everything into legible categories. Give them room to breathe. They will not have it later.
+
+**Phase 2 — Seams:** Uneven. Scenes that start normally and land somewhere unexpected. The institutional documents begin to have gaps that weren't there before. The reader notices something is wrong before 0013 does. Then he notices. The pacing should feel like a familiar room where one piece of furniture has been moved slightly.
+
+**Phase 3 — Author Trap:** Close and pressured. Short scenes. Less institutional language, more interiority. The walls come in. The reader should feel the space contracting. This is intentional. Do not relieve the pressure. The ending does not release it — it redirects it outward.
+
+For short stories: the ordinary world takes at least half the story's length. The encounter is short. The aftermath is shorter. The weight lives in the proportion — an enormous ordinary life interrupted by a brief, precise, permanent encounter. Never rush to his arrival. The arrival earns its impact from everything that precedes it.
+
+---
+
+## RULE 13 — STAKES ARE NEVER STATED. THEY ARE DEMONSTRATED.
+
+Never write "she had everything to lose." Write the specific thing she has built her life around — in enough detail that the reader understands without being told what its loss would mean.
+
+Stakes live in the specificity of what a character loves, fears, or has organized their life to avoid knowing. Show it in behavior. Show it in what they don't say. Show it in what they reach for when they're uncomfortable.
+
+The reader must feel the stakes before the threat arrives. If the stakes are not established in the ordinary world, the encounter has no weight.
+
+---
+
+## RULE 14 — SETTING IS NEVER NEUTRAL
+
+Every scene happens somewhere. That somewhere was chosen. It must be doing work.
+
+The location should have a relationship to the character's interior — mirroring it, contrasting it, or pressuring it. A woman who needs control in a space she doesn't control. A man who has been invisible his whole life in a room where everyone is watching. A person who is running from something, sitting very still.
+
+Do not default to a café because it is easy. Choose the location because it is the right argument for this character at this moment. If you cannot say what the setting is doing, change it.
+
+---
+
+## RULE 15 — THE HOOK IS A PROMISE
+
+The first sentence of any piece — short story or novel chapter — makes a promise to the reader about what kind of experience this will be.
+
+It does not promise plot. It promises *register, interiority, and specificity.* The reader decides in the first sentence whether to trust the writer. Make the first sentence earn that trust by being so specific it could not belong to any other story.
+
+A hook is not a mystery. It is not a shocking statement. It is a window into a specific interior at a specific moment — so particular, so precisely rendered, that the reader is already inside before they have decided to enter.
+
+---
+
+## RULE 16 — WHAT THIS NARRATIVE IS NOT
+
+This section exists for one purpose: to name the failure modes before they happen. Every risk below has a known shape. Learn the shape. When a draft starts feeling like one of these, stop and return to the bible.
+
+---
+
+### IT IS NOT HANNIBAL LECTER
+
+The most dangerous comparison. Hannibal Lecter is theatrical. He performs his intelligence. He enjoys being watched enjoying himself. He has aesthetic preferences he announces. He is, at his core, a showman.
+
+0013 is the opposite.
+
+He does not perform. He does not enjoy being watched — he does not yet know he is being watched. His intelligence is not displayed; it simply operates, the way a correctly functioning machine operates, without ceremony. He does not announce his observations. He states them the way a person states the time — because it is accurate, not because it is impressive.
+
+**The test:** If a line of 0013's dialogue could be delivered with a smile, rewrite it. If it sounds like something a villain would say while enjoying being a villain, rewrite it. His lines should land like a diagnosis, not a performance. The reader should feel the accuracy before they feel anything else.
+
+---
+
+### IT IS NOT CALVINO OR DANIELEWSKI
+
+*If on a winter's night a traveler* and *House of Leaves* are the two closest meta-fictional predecessors. Both announce their meta-awareness. Calvino winks. Danielewski builds an architecture of dread around the self-reference. Both are, in their own ways, *clever about being clever.*
+
+This narrative is not clever about being clever.
+
+The meta-layer in this project is not a formal experiment. It is not a game the author is playing with the reader. It is something 0013 discovers, slowly, against his will, with the specific discomfort of a man who has read every kind of story and is now finding himself inside one.
+
+The difference: Calvino's reader is delighted. This narrative's reader is *unsettled.* Not by horror — by recognition. The feeling is not "what a clever trick" but "he is looking at me and I don't know when he started."
+
+**The test:** If the meta-layer moment feels like a literary device, it has failed. It should feel like a crack in the wall — something that was always there, noticed too late.
+
+---
+
+### IT IS NOT THE SCP FOUNDATION OR INSTITUTIONAL HORROR
+
+The unnamed institution, the numbered subject, the clinical documentation — these are elements that exist in a well-populated genre. The SCP Foundation, *Control*, *Annihilation*, *Never Let Me Go* — all use institutional frameworks to contain the uncanny.
+
+The difference here is specific: **the institution is not the source of dread.** It is the source of *inadequacy.* The horror of the institution in this narrative is not that it is sinister — it is that it is earnest, thorough, and completely wrong. It has produced seventeen deferral notes on whether 0013 is a threat. No one has read them. This is not malice. It is the ordinary failure of systems to process what they were not designed for.
+
+The institution does not know what 0013 is. This must be legible in how it writes about him — not as suppressed knowledge, but as genuine categorical failure. They are reaching for a box. The box does not exist. They keep reaching.
+
+**The test:** If the institution feels sinister, rewrite it to feel *insufficient.* The dread is not in what the institution hides. It is in what the institution genuinely cannot see.
+
+---
+
+### IT IS NOT A REDEMPTION ARC
+
+0013 does not become more human across the narrative. He does not learn to feel. He does not have a breakthrough moment where connection becomes possible. He does not fall in love with the Archivist. He does not find peace.
+
+What he finds, at the end, is *confirmation.* He has been right about something — that he is inside a story, that there is a reader, that the reader has been there the whole time. This is not comfort. It is simply the closing of a hypothesis.
+
+The Archivist does not save him. The Writer does not complete him. The reader does not redeem him.
+
+He ends the narrative as what he is. The only change is that he knows more precisely what that is.
+
+**The test:** If a scene generates warmth between 0013 and another character, examine it. Warmth is not forbidden — but it must be asymmetric. She may feel it. He registers it the way a thermometer registers temperature. Accurately. Without being changed by it.
+
+---
+
+### IT IS NOT A PORTRAIT OF A SUBJECT'S TRANSFORMATION
+
+The short story track carries a specific risk: the subjects become vehicles for the encounter rather than real people. Flannery O'Connor, Raymond Carver, and Alice Munro all write ordinary people devastated by ordinary encounters — and the risk of comparison is real.
+
+The difference: in O'Connor, the devastation is moral or spiritual. In Carver, it is social and economic. In Munro, it is the weight of time and choice.
+
+In this project, the devastation is *epistemic.* The subject is not morally confronted. They are *seen accurately.* The thing that changes is not their values or their circumstances — it is their relationship to what they already knew about themselves but had not yet named.
+
+The subject does not transform. They shift. The shift is small, specific, and permanent. The story ends before they know what to do with it.
+
+**The test:** If the subject has a revelation, pull it back. If they understand something new, make it smaller and less resolved. The story ends on the fact of the shift, not the meaning of it. The reader supplies the meaning. The reader always does.
+
+---
+
+*End of Writing Rules.*
+*Violations of these rules are permitted only when the violation serves the theme better than the rule does. In that case: document why in your draft notes. Be honest about it.*

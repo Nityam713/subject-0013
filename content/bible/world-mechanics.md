@@ -51,6 +51,29 @@ It is wrong about this with respect to 0013. Documentation is the one thing he f
 
 ---
 
+### WHAT THE INSTITUTION IS NOT — THE CRITICAL DISTINCTION
+
+The unnamed institution, the numbered subject, the clinical documentation — these elements exist in a well-populated genre. The SCP Foundation. *Control.* *Annihilation.* *Never Let Me Go.* All use institutional frameworks to contain the uncanny.
+
+This institution is not that institution.
+
+The difference is this: **those institutions are sinister. This one is insufficient.**
+
+In the SCP Foundation, the institution knows something terrible and suppresses it. In *Never Let Me Go*, the institution knows exactly what its subjects are and has decided not to tell them. The horror in those works comes from concealed knowledge — from the gap between what the institution knows and what it reveals.
+
+This institution does not conceal knowledge about 0013. It genuinely does not have it. The seventeen deferral notes on his threat classification are not a cover-up. They are the record of a system that has been handed a question it was not built to answer, trying seventeen times to answer it anyway, and failing each time with complete sincerity.
+
+The institution is not malevolent. It is *earnest and wrong.* It is thorough, well-funded, staffed by competent people who are doing their jobs correctly — and none of that is sufficient, because 0013 is not a problem their methodology was designed to solve.
+
+**The specific failure mode to avoid in every institutional document:**
+Do not write the institution as knowing more than it shows. Write it as knowing exactly as much as it shows — which is less than it needs to know, and more than it understands.
+
+The reports are confident in tone and uncertain in content. The language reaches for categories that do not fit. The redactions are not strategic — they mark the places where the system ran out of language, not the places where it chose silence.
+
+This is the horror of the institution: not that it hides the truth, but that it cannot hold it.
+
+---
+
 ## IV. THE ARCHIVIST SYSTEM
 
 Archivists are the institution's human interface layer. They meet with subjects regularly. They write reports. They are chosen for their ability to remain professionally detached.
