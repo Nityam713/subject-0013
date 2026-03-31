@@ -24,17 +24,139 @@ This template is for SHORT STORIES only — the subject track.
 POV is the subject's. Not 0013's.
 0013 is the event that happens to this person. Not the protagonist.
 If you are writing from 0013's perspective, that belongs in novel/entries/.
+
+THE STRUCTURE IS A CHAIN, NOT A SEQUENCE.
+Each section causes the next. Section 1 earns Section 2.
+Section 2 earns the weight of Section 4.
+Section 4 is only devastating because of what Section 2 built.
+If a section can be removed without the story collapsing, it is not doing its job.
 ==========================================================================
 -->
 
 <!-- ═══════════════════════════════════════════════════════════════
-SECTION 1 — OPEN IN THE MIDDLE
+PRE-WRITING — ANSWER BEFORE WRITING A SINGLE WORD
+
+Do not skip this block. Do not write the story first and fill this in after.
+These answers are the architecture. The story is built on top of them.
+Remove this block before moving to revised/.
+═══════════════════════════════════════════════════════════════
+
+CONCEPT
+One sentence. What specific human truth does this encounter expose?
+Not "0013 reads someone" — that is every story.
+This story specifically: what does it reveal about this person, in this situation,
+that could not be revealed any other way?
+
+  Concept: _______________________________________________
+
+——————————————————————————————————————————————————————————————
+
+THEME
+Which of the four master themes does this story serve?
+  □ The Cost of Being Seen
+  □ Authorship and Ownership
+  □ The Hunger That Cannot Be Fed
+  □ Meaning in a World That Stopped Trying
+
+How does this theme appear BEFORE 0013 arrives (in the ordinary world)?
+  Before: _______________________________________________
+
+How does the same theme appear DIFFERENTLY after he leaves (in the aftermath)?
+  After: _______________________________________________
+
+The theme must transform across the story — not just be illustrated by it.
+
+——————————————————————————————————————————————————————————————
+
+CHARACTER — THE SUBJECT
+Answer all four before writing Section 2:
+
+  What are they carrying today, specifically?
+  (Not "grief" or "anxiety" — the specific situation, the specific weight)
+  _______________________________________________
+
+  What would they not say out loud about it, and why?
+  _______________________________________________
+
+  What small behavioral tic or habit reveals the thing they will not say?
+  (This is what 0013 will read. Make it specific enough to read.)
+  _______________________________________________
+
+  What do they want — the real want, beneath the stated one?
+  _______________________________________________
+
+——————————————————————————————————————————————————————————————
+
+CONFLICT
+What is the subject's internal conflict before 0013 arrives?
+(This must exist independently of him. He does not create it. He reveals it.)
+  _______________________________________________
+
+What does the subject stand to lose by being seen accurately?
+(This is the stakes. It must be something real — not abstract.)
+  _______________________________________________
+
+——————————————————————————————————————————————————————————————
+
+SETTING
+Where does this encounter happen?
+
+  Location: _______________________________________________
+
+What is the setting's relationship to the subject's interior?
+Choose one and state how:
+  □ Mirrors it — the space reflects what they are carrying
+  □ Contrasts it — the space is the opposite of their interior
+  □ Pressures it — the space makes their interior harder to maintain
+
+  How: _______________________________________________
+
+Do not default to a café because it is easy.
+The location must be the right argument for this character at this moment.
+
+——————————————————————————————————————————————————————————————
+
+STAKES
+What does the subject stand to lose if they are truly seen?
+What have they built their life around not-knowing?
+(This is the answer to the conflict question above — stated as a loss, not a feeling.)
+  _______________________________________________
+
+The stakes must be legible in the subject's behavior in Section 2.
+Not stated. Demonstrated.
+
+——————————————————————————————————————————————————————————————
+
+WHAT 0013 READS
+What specific behavior or pattern does he observe?
+(The tell — the thing the subject is broadcasting without knowing it.)
+  _______________________________________________
+
+What exact conclusion does he reach from it?
+(This becomes his line in Section 4. It must be specific, not general.)
+  _______________________________________________
+
+Test: Could this observation belong to a different subject in a different story?
+If yes — make it more specific until it could not.
+
+═══════════════════════════════════════════════════════════════ -->
+
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════
+SECTION 1 — HOOK: OPEN IN THE MIDDLE
 
 The subject is already inside their life when the story begins.
 Do not introduce them. Do not establish the scene from outside.
 Enter mid-thought, mid-action, mid-feeling.
 
-The first sentence should be so specific it could not belong to anyone else.
+The first sentence is the hook. It makes a promise:
+this is the register, this is the interiority, this is the specificity
+you will live inside for the length of this story.
+Make it earn that promise by being so particular it could not belong
+to any other story.
+
 What are they thinking right now — precisely?
 What are they doing with their hands?
 What is the small, particular texture of this ordinary moment?
@@ -64,21 +186,29 @@ We are inside. Always.
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════
-SECTION 2 — THE ORDINARY WORLD
+SECTION 2 — CHARACTER & SETTING: THE ORDINARY WORLD
 
 Before 0013 arrives, this person's life must be real.
 Two to four paragraphs. Not a backstory dump — a texture.
 
-Establish:
+PACING NOTE: This section should take up at least half the story's total length.
+The encounter is short. The ordinary world is long.
+This is counterintuitive. It is also the entire reason the encounter lands.
+Do not rush this section to get to 0013. He earns his impact from what you build here.
+
+Establish — using the pre-writing answers above:
   — What they are carrying today, specifically
-  — What they would not say out loud about it, and why
-  — What small behavioral tic or habit reveals the unspoken thing
+  — What they would not say out loud about it (shown in behavior, not stated)
+  — The behavioral tic or habit that reveals the unspoken thing
   — What they want — the real want, beneath the stated one
 
-Do not rush this section to get to 0013.
-The ordinary world is not setup. It is the story's foundation.
-Everything that lands later lands because of what is built here.
-The more real and specific this section, the harder the encounter hits.
+The setting must be doing work here.
+The location is not backdrop — it is argument.
+Show how the space relates to their interior: mirrors it, contrasts it, pressures it.
+
+The stakes must be legible in this section.
+Not stated. Demonstrated. The reader must feel what this person stands to lose
+before the threat arrives — otherwise the encounter has no weight.
 
 The subject should feel like someone the reader might know.
 Not a type. A person.
@@ -90,7 +220,7 @@ Not a type. A person.
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════
-SECTION 3 — 0013 ENTERS
+SECTION 3 — PLOT TURN 1: 0013 ENTERS
 
 He arrives. He is not announced. He is not described in full.
 He is simply present — at the next table, the adjacent seat, the same counter,
@@ -105,6 +235,12 @@ He does not introduce himself.
 He does not perform friendliness or normality.
 He begins — a question, an observation, a statement —
 the way someone begins a sentence they already finished in their head.
+
+TONE & STYLE NOTE:
+He is not theatrical. He does not perform his intelligence.
+He states things the way a person states the time — because it is accurate,
+not because it is impressive. If his arrival feels dramatic, rewrite it smaller.
+The unsettling quality comes from his ordinariness, not his strangeness.
 
 Do NOT write:
   — His eyes that seemed to see through her (cliché)
@@ -124,34 +260,40 @@ DO write:
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════
-SECTION 4 — THE MOMENT OF BEING READ
+SECTION 4 — CLIMAX: THE MOMENT OF BEING READ
 
-This is the center of the story.
+This is the center of the story. This is the climax.
 Everything before it builds toward this.
 Everything after it is consequence.
 
 He says something exactly, uncomfortably true.
 The subject has not said this aloud.
 They have barely thought it clearly.
-He has read it from data they did not know they were broadcasting.
+He has read it from the specific behavior or pattern established in Section 2 —
+the tell the subject did not know they were broadcasting.
 
-RULES FOR THIS MOMENT:
+DIALOGUE RULES FOR THIS MOMENT:
 
-It must be quiet.
-The most devastating accuracy arrives without fanfare.
-He does not pause for effect. He does not watch for their reaction.
-He states and continues. The weight lands after he has moved on.
-
-It must be specific.
+His line must be specific — derived from the exact tell you established.
 Not "you're running from something." That is a guess dressed as insight.
 Something with the texture of actual observation —
 a behavior, a pattern, a small specific tell that leads to an exact conclusion.
 
-It must feel true to the subject, not just to the reader.
+His line must be quiet.
+The most devastating accuracy arrives without fanfare.
+He does not pause for effect. He does not watch for their reaction.
+He states and continues. The weight lands after he has moved on.
+
+His line must feel true to the subject, not just to the reader.
 The subject's first reaction is not anger — it is the specific discomfort
 of sudden transparency. The usual defenses do not engage
 because there is nothing to defend against.
 He has not accused them. He has only stated what is true.
+
+TONE & STYLE NOTE:
+If his line could be delivered with a smile, rewrite it.
+If it sounds like something a villain would say while enjoying being a villain,
+rewrite it. It should land like a diagnosis, not a performance.
 
 CORRECT:
   "You've checked your phone four times," he said, not looking up,
@@ -173,11 +315,11 @@ WRONG:
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════
-SECTION 5 — THE EXCHANGE [optional]
+SECTION 5 — DIALOGUE & CONFLICT: THE EXCHANGE [optional]
 
 The subject may respond. They may not.
-This section is optional. Use it if the subject has something to say
-that reveals more about them — not about 0013.
+This section is optional. Use it only if the subject's response
+reveals something new about the subject — not about 0013.
 
 If they respond, he receives it the way a system receives input.
 It enters. It is processed. It does not alter the conclusion already reached.
@@ -189,9 +331,15 @@ They are offering something — rebuttal, confession, deflection —
 and he accepts it without it mattering.
 This is often worse than if he had refused it.
 
+DIALOGUE NOTE:
+If the exchange happens, his responses are short and accurate.
+He does not elaborate unless the elaboration is data.
+He does not comfort. He does not provoke. He simply continues to be precise.
+The horror is in the precision, not in anything he does with it.
+
 Do not use this section to give 0013 more lines.
-Use it only if the subject's response reveals something new about the subject.
-If it does not, cut it. His departure is enough.
+If the subject's response does not reveal something new about the subject, cut it.
+His departure is enough.
 ═══════════════════════════════════════════════════════════════ -->
 
 [The subject's response, if any — and what it costs them to give it]
@@ -200,7 +348,7 @@ If it does not, cut it. His departure is enough.
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════
-SECTION 6 — HE LEAVES
+SECTION 6 — PLOT TURN 2: HE LEAVES
 
 He goes. Without drama. Without a designed exit line.
 He stops, and he goes — the way a person moves on from a completed task.
@@ -229,7 +377,7 @@ The exit is more unsettling for being unremarkable.
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════
-SECTION 7 — THE AFTERMATH
+SECTION 7 — RESOLUTION / ENDING: THE AFTERMATH
 
 What has shifted in the subject?
 
@@ -242,10 +390,25 @@ In this world, named things have more narrative weight than unnamed ones.
 The subject is, in some way they cannot articulate, more real than they were.
 This is not comfortable. Being more real is not comfortable.
 
+RESOLUTION NOTE:
+This story does not resolve. It shifts.
+The subject is different. They do not know what to do with the difference.
+The story ends before they figure it out. This is correct.
+
+The theme established in Section 2 must reappear here — transformed.
+Not the same as it was. Changed by the encounter. Still unresolved.
+The reader sees the transformation. The subject may not.
+
 The story ends on the shift. Not on what they do with it.
 Not on whether they are better or worse.
 Not on whether they think about him again.
 On the specific, small, undeniable fact of what is different now.
+
+PACING NOTE:
+The aftermath is the shortest section. One to three paragraphs.
+The weight has already been delivered. The ending is the echo of it.
+Do not over-explain. Do not reach for meaning. State the fact of the shift
+and stop. The reader supplies the meaning. The reader always does.
 
 CORRECT:
   She did not finish her coffee.
@@ -259,7 +422,6 @@ WRONG:
 
 The wrong version resolves. This track does not resolve.
 The right version ends on the fact of the shift, not the meaning of it.
-The reader supplies the meaning. The reader always does.
 ═══════════════════════════════════════════════════════════════ -->
 
 [The aftermath — small, specific, unresolved]
@@ -268,13 +430,21 @@ The reader supplies the meaning. The reader always does.
 ---
 <!--
 BEFORE MOVING TO revised/:
+  □ Pre-writing block removed
   □ All instruction blocks removed
   □ Draft header updated (status: revised)
   □ Title decided or marked [untitled] deliberately
-  □ Voice checked against bible/writing-rules.md
+  □ Concept is legible in the story without being stated
+  □ Theme appears in Section 2 AND Section 7 — transformed, not repeated
+  □ Setting is doing work — not just backdrop
+  □ Stakes are demonstrated in Section 2 — not stated anywhere
+  □ The tell (behavioral tic) in Section 2 is specific enough to read
+  □ 0013's line in Section 4 is derived from that specific tell
+  □ His line lands like a diagnosis, not a performance
+  □ Pacing: Section 2 is at least half the story's length
+  □ The ending shifts — does not resolve
   □ 0013 has no internal POV anywhere in the story
-  □ The moment of being read is specific — not vague insight
-  □ The ending does not resolve — it shifts
+  □ Voice checked against bible/writing-rules.md
   □ Subject logged in _index/character-appearances.md if named
   □ Themes logged in _index/theme-tracker.md
 -->

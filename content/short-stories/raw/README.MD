@@ -31,8 +31,8 @@ Never edit a whim before filing it. File it as it came out.
 
 **The Unclear Draft** — a full attempt at a story that doesn't quite work yet.
 The subject isn't landing. The encounter feels off. The ending resolves when it shouldn't.
-You know something is wrong but not what. File it anyway.
-That is what `revised/` is for.
+The quote is vague where it needs to be exact. You know something is wrong but not what.
+File it anyway. That is what `revised/` is for.
 
 **The Note** — not even a draft. A character observation, a situation,
 a "what if this person met 0013." Three sentences or three hundred words.
@@ -47,21 +47,21 @@ Name your file descriptively. Not `draft1.md`. Not `untitled.md`.
 Use the subject as the anchor:
 
 ```
-[subject-descriptor]-[situation].md
+ss_[subject-descriptor].md
 
 examples:
-  the-woman-who-stopped-reading.md
-  man-on-the-train-platform.md
-  archivist-session-fragment.md
-  the-writer-first-encounter.md
+  ss_woman-who-stopped-reading.md
+  ss_man-on-the-train-platform.md
+  ss_archivist-session-fragment.md
+  ss_the-writer-first-encounter.md
 ```
 
-If you don't know the subject yet, use the feeling:
+If you don't know the subject yet, use the feeling or situation:
 
 ```
-  something-about-waiting.md
-  the-line-about-blank-pages.md
-  aftermath-no-subject-yet.md
+  ss_something-about-waiting.md
+  ss_the-line-about-blank-pages.md
+  ss_aftermath-no-subject-yet.md
 ```
 
 ---
@@ -70,9 +70,9 @@ If you don't know the subject yet, use the feeling:
 
 - Bible compliance
 - Correct 0013 voice
-- A complete encounter structure
-- Quotes that land
-- An ending that works
+- A complete plot structure
+- A quote that lands
+- An ending that works — or doesn't resolve
 - Consistency with other stories
 - A title
 
@@ -85,7 +85,7 @@ All of these are `revised/`'s problem. Not yours. Not yet.
 The idea. The seed. The thing that made you want to write this.
 
 Even if everything else is unclear — the subject is undefined,
-the structure is missing, the prose is rough —
+the structure is missing, the prose is rough, the quote is a placeholder —
 the original impulse must be recoverable from the file.
 
 If you read it back and cannot find what you were reaching for,
@@ -110,33 +110,115 @@ That is when you move it to `revised/` and write the revision brief.
 
 ## THE REVISION BRIEF
 
-When moving a file to `revised/`, attach a brief at the top of the file.
+When moving a file to `revised/`, attach this brief at the top of the file.
 This is your instructions — to yourself or to an AI — about what this draft needs.
+Be specific. Vague briefs produce vague revisions.
 
 ```
 REVISION BRIEF
-——————————————
-What this story is trying to be:
-[One or two sentences. What was the original impulse?]
+——————————————————————————————————————————
 
-What is working:
-[What to preserve exactly. Lines, images, ideas that are right.]
+WHAT THIS STORY IS TRYING TO BE:
+[One or two sentences. The original impulse. What human truth is this encounter exposing?]
 
-What is not working:
-[What is unclear, missing, or wrong. Be specific if you can.]
+CONCEPT (if known):
+[One sentence: what specific thing does 0013 read in this subject, and what does it cost them?]
 
-What it needs:
-[Fill in missing quotes / Fix unclear sections / Enforce bible voice /
-Add encounter structure / Other: ________]
+WHAT IS WORKING:
+[Lines, images, moments to preserve exactly. Be specific — name the lines.]
 
-Awareness level of subject:
-[Level 0 — Unaware / Level 1 — Sensing / Level 2 — Knowing / Level 3 — Addressing]
+WHAT IS NOT WORKING:
+[What is unclear, missing, or wrong. Be as specific as you can.]
 
-0013's presence tier:
-[Direct / Peripheral / Absent / Voiced]
+——————————————————————————————————————————
+STORY CRAFT CHECKLIST — mark each as: DONE / MISSING / UNCLEAR
 
-Format type:
-[Fragment / Document / Scenario / Confession / Other]
+HOOK (Section 1):
+  [ ] First sentence is specific enough to belong only to this story
+  [ ] Reader is inside the subject's interiority within two sentences
+  Status: _______________
+
+PLOT STRUCTURE (Sections 1–7):
+  [ ] Story follows the chain: hook → ordinary world → 0013 enters →
+      moment of being read → [exchange] → he leaves → aftermath
+  [ ] Each section earns the next — nothing can be removed without collapse
+  What is missing from the chain: _______________
+
+CHARACTER / ORDINARY WORLD (Section 2):
+  [ ] Subject's specific burden is established (not generic anxiety — a specific situation)
+  [ ] The behavioral tic or tell is present and specific enough to read
+  [ ] The real want (beneath the stated one) is legible
+  [ ] Section 2 is at least half the story's length
+  What is thin or missing: _______________
+
+SETTING:
+  [ ] Location is chosen, not defaulted
+  [ ] Setting has a relationship to the subject's interior (mirrors / contrasts / pressures)
+  What the setting is doing: _______________
+
+STAKES:
+  [ ] What the subject stands to lose by being seen is legible in their behavior
+  [ ] Stakes are demonstrated, not stated
+  What the stakes are: _______________
+
+0013'S QUOTE / THE MOMENT OF BEING READ (Section 4):
+  [ ] His observation is derived from the specific tell in Section 2
+  [ ] It is specific — not "you're running from something" but the exact behavior and conclusion
+  [ ] It is quiet — no pause for effect, no theatrical weight
+  [ ] It lands like a diagnosis, not a performance
+  Current state of the quote: _______________
+  What it needs: _______________
+
+DIALOGUE (Section 5, if present):
+  [ ] Subject's response reveals something new about the subject (not about 0013)
+  [ ] His replies are short, accurate, clinical — not elaborating for effect
+  [ ] The asymmetry is felt: they are inside a conversation; he has already filed it
+
+PACING:
+  [ ] Ordinary world is unhurried — not rushed to get to 0013
+  [ ] Aftermath is short — the weight has already landed
+  What feels off about the pacing: _______________
+
+THEME:
+  [ ] A theme from the master list is present in the ordinary world
+  [ ] The same theme appears transformed in the aftermath
+  Which theme: _______________
+
+ENDING / RESOLUTION (Section 7):
+  [ ] Ending shifts — does not resolve
+  [ ] Subject is different but does not know what to do with the difference
+  [ ] Story ends on the fact of the shift, not the meaning of it
+  [ ] No revelation, no closure, no "she finally understood"
+  Current ending: _______________
+  What it needs: _______________
+
+——————————————————————————————————————————
+REVISION TASKS REQUESTED:
+  [ ] Fill in / sharpen 0013's quote
+  [ ] Fix plot structure — add missing sections
+  [ ] Build out the ordinary world / character
+  [ ] Fix the ending — pull back from resolution
+  [ ] Enforce bible voice throughout
+  [ ] Fix setting — make it do work
+  [ ] Other: _______________
+
+AWARENESS LEVEL OF SUBJECT:
+  [ ] Level 0 — Unaware (ordinary person, no meta-awareness)
+  [ ] Level 1 — Sensing (something is wrong but cannot name it)
+  [ ] Level 2 — Knowing (a reader; recognizes what he is)
+  [ ] Level 3 — Addressing (speaks toward the reader; use once in entire collection)
+
+0013'S PRESENCE TIER:
+  [ ] Direct (enters the scene; full encounter structure)
+  [ ] Peripheral (at the edge; one line or none; influence without presence)
+  [ ] Absent (pure aftermath; past encounter; he is only a gap)
+  [ ] Voiced (his register bleeds into the prose without announcement)
+
+FORMAT TYPE:
+  [ ] Fragment (a moment; no full arc required)
+  [ ] Document (institutional register; passive voice; redactions)
+  [ ] Scenario (contained event with stakes; world larger than the encounter)
+  [ ] Confession (first person; subject addressing someone in their life)
 ```
 
 This brief is the handoff. Without it, revision is guessing.
